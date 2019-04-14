@@ -1,0 +1,1874 @@
+[
+  {
+    "date": "2012-01-01T11:29:41.000Z",
+    "source": "http://markmail.org/message/vdhbsasqzqnbx2od",
+    "type": "B",
+    "text": "WRONG. Alan, you're not getting it. Loading firmware as part of suspend/resume is WRONG."
+  },
+  {
+    "date": "2012-01-02T13:03:04.000Z",
+    "source": "http://markmail.org/message/wajnh3ivnydeegrr",
+    "type": "P",
+    "text": "What the heck is your problem? Go back and read it. If it wasn't loaded before, THEN IT WASN'T WORKING BEFORE EITHER!\n\nWhy the hell do you keep on harping on idiotic issues? Stop being a moron, just repeat after me: A caching firmware loader fixes all these issues and is simple to boot. Stop the idiotic blathering already."
+  },
+  {
+    "date": "2012-01-02T13:19:14.000Z",
+    "source": "http://markmail.org/message/6yuyz57cmrgo5fbe",
+    "type": "B",
+    "text": "Why do you make up all these idiotic theoretical cases that nobody cares about and has no relevance what-so-ever for the 99%? Seriously? It's just stupid.\n\nYou seem to *intentionally* be off in some random alternate reality that is not relevant to anybody else, or to the actual reported problems at hand."
+  },
+  {
+    "date": "2012-01-05T07:15:43.000Z",
+    "source": "http://markmail.org/message/67cwg72lysi7isn4",
+    "type": "C",
+    "text": "Whjat the f*ck is the logic there? Just fix the *obvious* breakage in BLKROSET. It's clearly what the code *intends* to do, it just didn't check for ENOIOCTLCMD.\n\nIt's a DISEASE how you seem to think that \"we have ugly mistakes in the kernel, SO LET'S ADD ANOTHER ONE\". That's not how we do things. We *fix* things, instead of making things even *worse*. Stop this insanity from spreading, instead of making it spread more!"
+  },
+  {
+    "date": "2012-01-05T08:04:08.000Z",
+    "source": "http://markmail.org/message/7mbldkqli45vetes",
+    "type": "B",
+    "text": "You are the one who seems to just want to add hack upon hack to things. THAT is what I really hate. It's not only in bad taste, it *will* come back and bite us some day."
+  },
+  {
+    "date": "2012-01-06T13:12:58.000Z",
+    "source": "http://markmail.org/message/2xzd4gfthx7cx4qa",
+    "type": "B",
+    "text": "Hell no! Why do you send me this sh*t? The \"Use NMI instead of REBOOT_VECTOR\" commit has been reported to not work AT ALL. It was totally broken\n\nyet you send me this KNOWN BROKEN CRAP. And yes, I checked. The version you sent me is the f*cked one. I was hoping that you would have fixed it up. But no. In short, you didn't merge the fix, and yet you sent me a patch series that was *known* to be broken for the last three+ weeks!\n\nWhy? WHAT THE F*CK HAPPENED, INGO? Yes, I'm angry as hell. Shit like this should NOT happen.  I don't want people sending me known-buggy pull requests."
+  },
+  {
+    "date": "2012-01-10T09:26:38.000Z",
+    "source": "http://markmail.org/message/zl7vtxfzr46qz7vj",
+    "type": "C",
+    "text": "Mark, I pulled this, but I was *this* close to unpulling it because it's such an unholy mess. You seem to do the crazy \"daily pull\" crap that NOBODY IS EVER SUPPOSED TO DO. There are lots of totally pointless\n\nmerge commits, and no, that's not ok\n\nJust don't do it. There's no excuse. The *only* time you should merge is when a sub lieutenant asks you to - and if you have people who work with you and ask you to do pointless merges almost every day, just tell them to shut the f*ck up already!\n\nBut dammit, don't then do development on top of that kind of crap - use that branch *only* for linux-next, not for anything else, and don't ask me to pull that polluted piece of sh*t.\n\nBut never *ever* have those stupid pointless \"Merge remote-tracking branch 'regulator/for-linus' into regulator-next\" in the branch you actually use for development, and the branch you send to me."
+  },
+  {
+    "date": "2012-01-10T09:36:36.000Z",
+    "source": "http://markmail.org/message/mm4j5aparrhrd2uj",
+    "type": "C",
+    "text": "No it's not. Please fix your crappy script. First off, that '#' is wrong. It should be a space."
+  },
+  {
+    "date": "2012-01-10T10:18:21.000Z",
+    "source": "http://markmail.org/message/etgqfjizy2bnlueb",
+    "type": "B",
+    "text": "\n\nYou did *two* of the merges within hours of each other!\n\nThat's just crazy. The fact that you then say that you have some kind of *excuse* for that craziness is just sad. Stop doing that. It's stupid. It just makes it harder for everybody to see what you are doing.\n\nCan't you see how crazy that is?"
+  },
+  {
+    "date": "2012-01-11T21:41:13.000Z",
+    "source": "http://markmail.org/message/pfxugcxqxjfriph5",
+    "type": "P",
+    "text": "Stop being a moron. Go back and read the \"nobody can work with you\"."
+  },
+  {
+    "date": "2012-01-14T17:18:39.000Z",
+    "source": "http://markmail.org/message/jbizb5ughu4fqxrb",
+    "type": "P",
+    "text": "That statement is so nonsensical that I can't get past it. When you understand why it is nonsensical, you understand why the bit is cleared. Feel free to bring this up again without that idiotic statement as an argument."
+  },
+  {
+    "date": "2012-01-16T15:59:18.000Z",
+    "source": "http://markmail.org/message/qsuq427y6dwkf4hy",
+    "type": "B",
+    "text": "So stop spouting garbage."
+  },
+  {
+    "date": "2012-01-18T10:47:31.000Z",
+    "source": "http://markmail.org/message/dq2ynrzxr7pmwats",
+    "type": "B",
+    "text": ".. And how the f*^& did you imagine that something like chrome would do that? You need massive amounts of privileges, and it's a total disaster in every single respect. Stop pushing crap. No, ptrace isn't wonderful, but your LSM+auditing idea is a billion times worse in all respects.\n\nTHERE IS NO WAY IN HELL YOU CAN EVER FIX LSM+AUDIT TO BE USABLE! Stop bothering to even bring it up. It's dead, Jim."
+  },
+  {
+    "date": "2012-01-23T07:05:49.000Z",
+    "source": "http://markmail.org/message/ch4twebkpi6b2mbl",
+    "type": "C",
+    "text": "And this is just insanity. The \"barrier()\" cannot *possibly* do anything sane. If it really makes a difference, there is again some serious problem with the whole f*cking thing. NAK on the patch until sanity is restored. This is just total voodoo programming."
+  },
+  {
+    "date": "2012-01-23T09:45:12.000Z",
+    "source": "http://markmail.org/message/onbcv4qmrw4tbv5s",
+    "type": "C",
+    "text": "This still doesn't make sense. Why do that stupid allocation? Why not just move the entry? Why doesn't just the sane approach work? What the f*^& does that pci_stop_bus_device() function do\n\nAnd if it does anything else, it should damn well stop doing that. The *exact* same loop is then apparently working for the virtual device case, so what the hell is going on that it wouldn't work for the physical one? What's the confusion? Why all the crazy idiotic code that makes no sense?"
+  },
+  {
+    "date": "2012-01-23T10:34:02.000Z",
+    "source": "http://markmail.org/message/uuekhii7gppgrchm",
+    "type": "C",
+    "text": "\n\nwhich at least isn't butt ugly.\n\nWho is in charge of the whole 'is_virtfn' mess? How realistic is it to fix that crud?"
+  },
+  {
+    "date": "2012-01-23T10:44:07.000Z",
+    "source": "http://markmail.org/message/do7uzydtoet263qb",
+    "type": "C",
+    "text": "Ugh. Ok, so that's a disgusting hack, but it's better than messing up the generic PCI subsystem. At least it's a disgusting hack in the IOV code."
+  },
+  {
+    "date": "2012-02-01T14:14:51.000Z",
+    "source": "http://markmail.org/message/dxz4tb3kjl4bp6gv",
+    "type": "C",
+    "text": "I think this patch is horrible, and broken. And making the feature a config option is just stupid."
+  },
+  {
+    "date": "2012-02-03T16:27:13.000Z",
+    "source": "http://markmail.org/message/ksmb5zyz2lqibbtz",
+    "type": "C",
+    "text": "I hate this patch. Why? Because mindless checks like this would just lead to people making things worse and intermixing spaces there instead."
+  },
+  {
+    "date": "2012-02-10T09:59:28.000Z",
+    "source": "http://markmail.org/message/dbru76xfj6x3kwrw",
+    "type": "C",
+    "text": "I never *ever* want to see this code ever again. Sorry, but last time was too f*cking painful. "
+  },
+  {
+    "date": "2012-02-19T09:45:03.000Z",
+    "source": "http://markmail.org/message/hajos5jgikouyqzz",
+    "type": "C",
+    "text": "Duh. That is just broken.\n\nThat's just stupid. "
+  },
+  {
+    "date": "2012-02-23T08:17:58.000Z",
+    "source": "http://markmail.org/message/jkqbwy67dldnsw64",
+    "type": "B",
+    "text": "Ingo, stop with the stupid denialism. NOBODY likes that name. NOBODY. It's wrong. It's stupid. It sounds like a stronger \"unlikely()\", and it simply IS NOT. So rename it already.\n\n"
+  },
+  {
+    "date": "2012-02-27T07:23:29.000Z",
+    "source": "http://markmail.org/message/dr3rwlsdmbskwd25",
+    "type": "C",
+    "text": "There's two of those *stupid* merges that have no reason for existing, no explanation, and are just ugly. Don't do this, guys!\n\nChrist. I really don't like stupid unnecessary merges.\n\nThe above is really just a f*cking abomination, and says \"somebody is doing something horribly wrong\"."
+  },
+  {
+    "date": "2012-02-27T14:25:53.000Z",
+    "source": "http://markmail.org/message/5m6tpd4ndfhmgwmb",
+    "type": "P",
+    "text": "Congratulations, you seem to have found a whole new and unique way of screwing up ;) Linus \"my mom called me 'special' too\" Torvalds"
+  },
+  {
+    "date": "2012-02-28T09:34:26.000Z",
+    "source": "http://markmail.org/message/elh6nu2xnuhnih4a",
+    "type": "C",
+    "text": "Oh christ. This is exactly what the scheduler has ALWAYS ALREADY DONE FOR YOU.\n\nStop doing it. You get *zero* advantages from just doing what the scheduler natively does for you, and the scheduler does it *better*."
+  },
+  {
+    "date": "2012-03-01T07:22:31.000Z",
+    "source": "http://markmail.org/message/jbumffinfr6z2fgw",
+    "type": "C",
+    "text": "Ugh. But my patch was crap. It fixed up \"arg\", but it *should* have fixed up \"cmd\". Stupid."
+  },
+  {
+    "date": "2012-03-08T14:40:03.000Z",
+    "source": "http://markmail.org/message/d4dfw53uqwhdj24i",
+    "type": "B",
+    "text": "Stop right there.\n\nThis is about your patch BREAKING EXISTING BINARIES. So stop the f*&^ing around already. The patch was shown to be broken, stop making excuses, and stop blathering. End of story. Binary compatibility is more important than *any* of your patches. If you continue to argue anything else or making excuses, I'm going to ask people to just ignore your patches entirely. Seriously.\n\nDammit, I'm continually surprised by the *idiots* out there that don't understand that binary compatibility is one of the absolute top priorities.\n\nBreaking existing binaries\n\nis just about the *worst* offense any kernel developer can do. Because that shows that they don't understand what the whole *point* of the kernel was after all. We're not masturbating around with some research project.  We never were. Even when Linux was young, the whole and only point was to make a *usable* system. It's why it's not some crazy drug-induced microkernel or other random crazy thing. Really."
+  },
+  {
+    "date": "2012-03-10T12:48:58.000Z",
+    "source": "http://markmail.org/message/rejdrjwxjpsjhcbz",
+    "type": "B",
+    "text": "Christ. This one is too ugly to live. I'm not pulling crap like this. It's f*^&ing stupid to take a lock, calculate a bitqueue, and just generally be an absolute ass-hat about things for waiting for a bit that is already set 99.999% of the time."
+  },
+  {
+    "date": "2012-03-12T02:11:20.000Z",
+    "source": "http://markmail.org/message/ichcq6rwe6kd465y",
+    "type": "B",
+    "text": "Umm. I think your argument is totally braindead and wrong. My counter-argument is very simple: \"So what?\""
+  },
+  {
+    "date": "2012-03-13T17:50:48.000Z",
+    "source": "http://markmail.org/message/g3trnj5a24qwudha",
+    "type": "B",
+    "text": "Sorry, you're wrong. And Rafael *told* you why you are wrong, and you ignored him and talked about \"exec\" some more. So go back and read Rafael's email.\n\nSo please, read the emails. People actually *agree* that the name may be a bit misleading, but instead of harping on bogus issues, just read the emails from people like Rafael about it. So STOP with this idiocy already.\n\nSeriously. Get that through your head already."
+  },
+  {
+    "date": "2012-03-13T18:20:48.000Z",
+    "source": "http://markmail.org/message/juyi2s4trzco2u4t",
+    "type": "C",
+    "text": "So I have to say, I hate this entire series.\n\nSo quite frankly, I think the whole series is total and utter garbage. And there isn't even any *explanation\" for the garbage. You say that you are unifying things, but dammit, in order to unify them you end up *adding*new*f&^#ing*code*.\n\nSo a honking big NAK on this whole series unless you can explain with numbers and show with numbers what the advantage of the abortion is."
+  },
+  {
+    "date": "2012-03-16T15:37:20.000Z",
+    "source": "http://markmail.org/message/2akzikmz2ddlrpxw",
+    "type": "C",
+    "text": "Ugh, this is disgusting."
+  },
+  {
+    "date": "2012-03-16T21:51:09.000Z",
+    "source": "http://markmail.org/message/awyyeypu2ephzrgw",
+    "type": "B",
+    "text": "Stop these idiotic games already!\n\nYour moronic \"let's change the test to something else\" is entirely and utterly misguided and totally misses the point.\n\nStop the idiocy already. How hard is it to understand? How many times do people have to tell you?\n\nRafael, please consider everything along these *IDIOTIC* lines completely NAK'ed. In fact, until Stephen starts showing any sign of understanding that it's not about just some random small detail, just ignore anything and everything from him. Stephen, you've been told multiple times that that WARN_ON() is correct. Until you understand that, just stop sending these entirely random patches that change it to something completely wrong. How hard can it be to understand that you cannot and must not load firmware when the system isn't up-and-running. And *dammit*, the fact that you send these kinds of completely nonsensical patches\n\nall you are showing is that you don't understand the problem. Stop, think, and read the emails that have been in this thread and that have explained how it *could* be solved. Until you do that, any patch you send is just worthless. Really."
+  },
+  {
+    "date": "2012-03-21T09:12:41.000Z",
+    "source": "http://markmail.org/message/6frp6dt75hnwzdm3",
+    "type": "C",
+    "text": "Ugh. This is getting really ugly.\n\nbecause quite frankly, the whole spinunlock inlining logic is *already* unreadable, and you just made it worse."
+  },
+  {
+    "date": "2012-03-22T17:07:38.000Z",
+    "source": "http://markmail.org/message/koy5eiv3bsbiqnhj",
+    "type": "C",
+    "text": "\n\nWhy do I call it a total disaster?\n\nMore importantly, they are both IDENTICALLY BAD. They are crap because:\n\nDoing a function call for these things is stupid.\n\n"
+  },
+  {
+    "date": "2012-03-22T19:15:36.000Z",
+    "source": "http://markmail.org/message/6t2fviwfm4kb2xxp",
+    "type": "B",
+    "text": "\n\nI will not be pulling this tree at all. It's pure and utter shit, and I wonder how long (forever?) this has been going on.\n\nthe thing that makes me go \"uhhuh, no way in *hell* should I pull this\" is that you have apparently totally broken all sign-offs. Avi, you ABSOLUTELY MUST NOT rebase other peoples commits. That's a total no-no. And one thing I notice when I look through the commits is that you have totally broken the Signed-off-by: series in the process, exactly because what you do is crap, crap, CRAP.\n\nThat's simply not true in your tree. Maybe because you have rebased other peoples (Alexander's) commits? I see commits where the sign-off ends with Alexander, but then the committer is you. WTF? Fix your f*cking broken shit *now*. I'm not pulling crap like this. And it makes me unhappy to realize that this has probably happened a long time and I haven't even noticed. The whole \"you MUST NOT rebase other peoples commits\" is the thing I've been telling people for *years* now. Why the hell is it still going on?"
+  },
+  {
+    "date": "2012-03-28T19:24:18.000Z",
+    "source": "http://markmail.org/message/gj44tkutjg4y7y6t",
+    "type": "C",
+    "text": "Ugh:\n\nCan we please move that abortion into arch/powerpc/? Instead of making generic code even uglier.."
+  },
+  {
+    "date": "2012-03-29T10:31:52.000Z",
+    "source": "http://markmail.org/message/shn5pikjabdiw4ss",
+    "type": "P",
+    "text": "Your original email used \"torv\n\n@osdl.org\", which goes into a kind-of-black hole. Please fix whatever crazy-old address book you have - that address is old, old, old. Oh, and your *new* email had totally broken email headers too. WTF? That\n\nis just pure and utter garbage. What the hell is wrong with your email setup? When I reply to that email, I sure as hell want to reply to *you*, not to *me*. So fix your email, right now it's terminally broken. Will look at the pull requests now that I actually see them, and when I'm over being upset by your idiotic email issues."
+  },
+  {
+    "date": "2012-03-30T10:16:32.000Z",
+    "source": "http://markmail.org/message/smg2va3obl3tjcgt",
+    "type": "C",
+    "text": "Finally, people - your merge messages suck. Leaving the list of conflicting files without talking about what the conflict actually was is *not* a good merge message. Len, you're not the only one that does this, but it is yet another reason why I absolutely detest some of the merges I see: they are just very uninformative, and don't add anything useful to the tree - quite the reverse. They hide a problem, without actually talking about what the problem was.\n\nAnd yes, sometimes my merge messages suck too (although I've tried very hard to become better at them)."
+  },
+  {
+    "date": "2012-03-30T13:39:22.000Z",
+    "source": "http://markmail.org/message/capsv5nvywxl7upx",
+    "type": "B",
+    "text": "Grr. Most of these patches have the same stupid problem: why the *hell* do you repeat the single-line top-level description in both the Subject line and the body of the email? It only results in stupid duplicate lines in the commit logs. This is a disease. I don't know who the heck started doing it, but it's WRONG. It's stupid. What broken piece-of-shit tool is it that does this braindamage? Fix it. Stop sending these broken commit messages to people. I'm grumpy, yes, because this is a common problem. I see it all over the place, and it makes our commit logs look f*cking retarded.\n\n"
+  },
+  {
+    "date": "2012-04-05T08:09:33.000Z",
+    "source": "http://markmail.org/message/bh4ync7fbykaxwzv",
+    "type": "C",
+    "text": "\n\nWhy has this been explicitly designed to be as ugly as humanly possible, and to be so inconvenient to parse too?\n\nSo here's a serious suggestion: aim for \"line oriented\".\n\n\n\nThat's stupid. Don't do it.\n\nBecause this is just pure and utter *shit*:\n\nThis part gets a big NAK from me. I don't see the point of this. It's pure crap. There's no advantage. And the \"use an uint64_t\" is a classic case of just being a f*cking moron.\n\nThis is the kind of thinking and code that just makes me go \"No way, not today, not ever\". It's *stupid*."
+  },
+  {
+    "date": "2012-04-09T13:29:51.000Z",
+    "source": "http://markmail.org/message/b6regz6h4iel6lyq",
+    "type": "B",
+    "text": "Oh, *HELL*NO*! It's a fucking disaster in \"Oh, one notifier was broken, SO LET'S ADD ANOTHER RANDOM ONE TO FIX THAT\". The definition of insanity is doing the same thing over and over and thinking you get a different result. Let's not do that kind of idiotic thing. Notifiers are evil crap. Let's make *fewer* of them, not add yet-another-random-notifier-for-some-random-reason. F*ck me, but how I hate those random notifiers. And I hate people who add them willy nilly."
+  },
+  {
+    "date": "2012-04-12T10:05:23.000Z",
+    "source": "http://markmail.org/message/itukxtb7z2d5wh6w",
+    "type": "B",
+    "text": "\n\nSo stop complaining. Reverts really *are* just patches, Greg is 100% right, and you are simply wrong.\n\nand the fact that you *continue* to complain just makes you look stupid."
+  },
+  {
+    "date": "2012-04-12T12:33:47.000Z",
+    "source": "http://markmail.org/message/ubwct7u24synra4k",
+    "type": "P",
+    "text": "You're a fucking moron.\n\nSo just reverting it from stable, *WITHOUT LEARNING THE LESSON*, is not a no-op at all, it's a sign of being a f*cking moron. I'm stupider for just reading your email. Go away."
+  },
+  {
+    "date": "2012-04-12T13:07:29.000Z",
+    "source": "http://markmail.org/message/lyo6lblmxx5ur454",
+    "type": "P",
+    "text": "Stop the idiotic arguing already."
+  },
+  {
+    "date": "2012-04-13T15:44:14.000Z",
+    "source": "http://markmail.org/message/yrqadud37zpdpera",
+    "type": "B",
+    "text": "Please don't continue to spread this total bogosity.\n\nThat's a total idiotic lie by C++ apologists, and I hate hearing it repeated over and over again. And it really *is* a lie.\n\nWhich is clearly insane, but is also technically simply *wrong*.\n\nWhich is utter and complete bullshit, and any amount of brains would have realized that\n\nIt has always been just nothing but a moronic hang-up, and it has always been *wrong*. So don't spread that lie. It was wrong.\n\nwhich is pure and utter garbage. And then they lie, and claim that their *weaker* type system NULL is \"stronger\". Pure idiocy."
+  },
+  {
+    "date": "2012-04-13T22:51:09.000Z",
+    "source": "http://markmail.org/message/apc5qjhvycfg5ufa",
+    "type": "C",
+    "text": "\n\nAnd a C++ person who says that \"(vodi *)0\" is just any \"void *\" is a *fucking*moron*,\n\nThere is absolutely *zero* excuse for the idiotic traditional C++ brain damage of saying \"NULL cannot be '(void *)0', because 'void *' will warn\". Anybody who says that is lying.\n\nThe C++ people? They are morons, and they never got it, and in fact they spent much of their limited mental effort arguing against it.\n\nThe whole \"it's a stronger type system, so NULL has to be 0\" is pure and utter garbage. It's wrong. It's stupid.\n\nYeah, I'm not a fan of C++. It's a cruddy language."
+  },
+  {
+    "date": "2012-04-14T12:17:30.000Z",
+    "source": "http://markmail.org/message/kpeen3tskyftasrs",
+    "type": "C",
+    "text": "They may be readable, but they are total shit.\n\nSo no. Hell no."
+  },
+  {
+    "date": "2012-04-15T08:48:39.000Z",
+    "source": "http://markmail.org/message/2okvqhgmmbk6mavm",
+    "type": "P",
+    "text": "And if you cannot understand what tens of people have tried to explain to you, you are just f*cking stupid."
+  },
+  {
+    "date": "2012-04-16T10:08:49.000Z",
+    "source": "http://markmail.org/message/6lvn6z57ozzcmlm2",
+    "type": "C",
+    "text": "Ugh, I personally hate it.\n\nYour suggested format just sucks, and has the worst of all worlds."
+  },
+  {
+    "date": "2012-04-24T10:37:30.000Z",
+    "source": "http://markmail.org/message/ls5g34xsirkagjdl",
+    "type": "C",
+    "text": "\n\nThis is wrong. Or at least stupid."
+  },
+  {
+    "date": "2012-04-24T16:45:51.000Z",
+    "source": "http://markmail.org/message/ckcwu6icpdtzlum2",
+    "type": "C",
+    "text": "Oh christ. What insane version of gcc is that? Can you please make a gcc bug-report?\n\nis just so fricking stupid that it's outright buggy. That's just crazy. It's demented. It's an \"and\" with all bits set."
+  },
+  {
+    "date": "2012-04-27T07:35:35.000Z",
+    "source": "http://markmail.org/message/7dwbpurjzcxumkyu",
+    "type": "C",
+    "text": "\n\nwhich is obviously completely bogus - it's even broken the constant. Your address simplification does something horribly bad.\n\nThat's a totally worthless instruction.\n\nThat \",1\" is completely bogus, and I don't understand why the tools show that idiotic format to begin with. It's pure garbage. It adds zero information\n\nThat \"0x0\" is more useless garbage in the same vein.\n\nBtw, don't get me wrong. I really like the changes. "
+  },
+  {
+    "date": "2012-05-09T16:12:45.000Z",
+    "source": "http://markmail.org/message/vrtkcayj2bi6v7uq",
+    "type": "P",
+    "text": "Oh christ, I also cannot be bothered to continue arguing with you since you seemingly randomly drop other people from the discussion. So don't expect any more replies from me."
+  },
+  {
+    "date": "2012-05-10T07:47:00.000Z",
+    "source": "http://markmail.org/message/52znomrz6qlpykvz",
+    "type": "B",
+    "text": "Don't try to change the rules because you think you are \"clever\". You're only making things worse."
+  },
+  {
+    "date": "2012-05-10T12:57:45.000Z",
+    "source": "http://markmail.org/message/mry6hxuhovio3ixb",
+    "type": "B",
+    "text": "So? Even if we hadn't had this bug before (we have), your argument is utter crap.\n\nStop arguing for crap."
+  },
+  {
+    "date": "2012-05-17T13:31:37.000Z",
+    "source": "http://markmail.org/message/n3unxmpwoyps6r7o",
+    "type": "C",
+    "text": "I absolutely detest these types. I realize that we already have a few users, but just looking at these diffs *hurts*. It's disgusting."
+  },
+  {
+    "date": "2012-05-17T18:33:21.000Z",
+    "source": "http://markmail.org/message/6uyne3c5nu7rxxcl",
+    "type": "C",
+    "text": "Ok, this code is a rats nest.\n\nThe code is crazy. It's an unreadable mess. Not surprising that it then also is buggy\n\nLooking at the code, I don't think it has been written by a human.\n\nSome of that code is clearly pure garbage.\n\nIn fact, it's *all* crap. "
+  },
+  {
+    "date": "2012-05-19T08:08:31.000Z",
+    "source": "http://markmail.org/message/livvej2ebcpk64zd",
+    "type": "B",
+    "text": "NAK NAK NAK. Ingo, please don't take any of these patches if they are starting to make NUMA scheduling be some arch-specific crap. Peter - you're way off base. You are totally and utterly wrong for several reasons:\n\nso making some arch-specific NUMA crap is *idiotic*. Your argument\n\nis pure crap.\n\nChrist, people.\n\nis just f*cking moronic.\n\nStop the idiocy.\n\n"
+  },
+  {
+    "date": "2012-05-21T14:43:34.000Z",
+    "source": "http://markmail.org/message/aw2kxp3cyedu6shq",
+    "type": "B",
+    "text": "Wrong.\n\nso you're just full of it.\n\nChecking the MCE data is stupid and wrong. Stop doing it, and stop making idiotic excuses for it.\n\nyou are just doing moronic things. Stop doing stupid things."
+  },
+  {
+    "date": "2012-05-22T17:50:06.000Z",
+    "source": "http://markmail.org/message/ii4sismm64mozslm",
+    "type": "C",
+    "text": "Ugh. No. That is too disgusting for words."
+  },
+  {
+    "date": "2012-05-24T09:20:57.000Z",
+    "source": "http://markmail.org/message/c3323f2ole4j2wxk",
+    "type": "B",
+    "text": "*NEITHER* of your points actually address my issue.\n\nIOW, why the hell do you set a name that is so useful that no sane person would ever want to use it?\n\nSo let me be more blunt and direct: which part of \"that's f*cking stupid\" do you disagree with? So instead of making drivers do stupid things because you've made the input layer names so damn useless, why don't you make the input layer use better naming? Doesn't that seem to be the *smart* thing to do?"
+  },
+  {
+    "date": "2012-05-24T11:10:51.000Z",
+    "source": "http://markmail.org/message/d7bid3niqwudezo3",
+    "type": "P",
+    "text": "I'll let you think about just how stupid that comment was for a moment."
+  },
+  {
+    "date": "2012-06-07T15:25:11.000Z",
+    "source": "http://markmail.org/message/t7l4p5mxplznn7x4",
+    "type": "C",
+    "text": "Ugh, looking more at the patch, I'm getting more and more convinces that it is pure and utter garbage.\n\nWTF?\n\nThis is crap, guys. Seriously. Stop playing russian rulette with this code."
+  },
+  {
+    "date": "2012-06-12T06:26:01.000Z",
+    "source": "http://markmail.org/message/rma3xbyetfmweigo",
+    "type": "C",
+    "text": "No, that's just crazy. Now you make broken shit code work, and then you break the *correct* code\n\nJust face it: if somebody doesn't have an interrupt-time function pointer, they need to rethink their code. It's a mistake. It's broken shit. Why pander to crap? "
+  },
+  {
+    "date": "2012-06-26T10:00:56.000Z",
+    "source": "http://markmail.org/message/ebs2pmmqdb7q65qq",
+    "type": "C",
+    "text": "This is too damn ugly. These kinds of \"conditionally take lock\" things are always just bugs waiting to happen. Don't do it.\n\nThese kinds of \"bool lock\" crap things have to die. They are *wrong*. They are a sign of bad locking rules."
+  },
+  {
+    "date": "2012-07-02T13:22:55.000Z",
+    "source": "http://markmail.org/message/smfscgbodyo7tffi",
+    "type": "B",
+    "text": "Umm. That just smells like BS to me.\n\nAlso, your protection claim seems to be invalidated by the actual code.\n\nSo your claim that it hedges around it by looking at the inquiry data is pure crap. It's simply not true.\n\nSo no, I simply don't see the careful testing or the checking that you claim exists."
+  },
+  {
+    "date": "2012-07-05T09:34:49.000Z",
+    "source": "http://markmail.org/message/vpm47rccr2tratwj",
+    "type": "C",
+    "text": "This is horrible, I think. NAK NAK NAK.\n\nSo don't do this. It's stupid.\n\nI absolutely *detest* patches like this that make *practical* security worse, in the name of some idiotic theoretical worry that nobody has any reason to believe is real."
+  },
+  {
+    "date": "2012-07-06T11:29:38.000Z",
+    "source": "http://markmail.org/message/qwv74fvg3pqnk4eo",
+    "type": "B",
+    "text": "Kay, this needs to be fixed.\n\nOf course, I'd also suggest that whoever was the genius who thought it was a good idea to read things ONE F*CKING BYTE AT A TIME with system calls for each byte should be retroactively aborted. Who the f*ck does idiotic things like that? How did they noty die as babies, considering that they were likely too stupid to find a tit to suck on?"
+  },
+  {
+    "date": "2012-07-09T17:28:34.000Z",
+    "source": "http://markmail.org/message/6ieajwxtjcw6ba3d",
+    "type": "B",
+    "text": "sizeof without parenthesis is an abomination, and should never be used.\n\nThe sane solution is: just add the f*cking parenthesis, and don't use the parsing oddity.\n\nAnd talking about \"prefix operators\" is a moronic thing to do.\n\nThink of it as a function, and get over your idiotic pissing match over how long you've both known C. That's irrelevant.\n\n"
+  },
+  {
+    "date": "2012-07-10T23:52:32.000Z",
+    "source": "http://markmail.org/message/korjohhsmhlgcwti",
+    "type": "C",
+    "text": "Absolutely. Anybody who does that is just terminally confused. \"return()\" is in no way a function.\n\nHere's an example of a really bad use of \"sizeof\" that doesn't have the parenthesis around the argument: sizeof(*p)->member. Quite frankly, if you do this, you should be shot.\n\nAnd let's face it: if you write your code so that it's easy to parse for a machine, and ignore how easy it is to parse for a human, I don't want you writing kernel code.\n\n"
+  },
+  {
+    "date": "2012-07-15T14:52:58.000Z",
+    "source": "http://markmail.org/message/iig6w6kjn4x44a6c",
+    "type": "C",
+    "text": "\n\nHowever, please don't use the *INSANE* ARM \"v8\" naming. There must be something in the water in Cambridge, but the ARM \"version\" naming is just totally broken.\n\nmaybe it all makes sense if you have drunk the ARM cool-aid and have joined the ARM cult, but to sane people and outsiders, it is just a f*cking mess. So - aarch64 is just another druggie name that the ARM people came up with after drinking too much of the spiked water in cambridge.\n\n- armv8 is totally idiotic and incomprehensible to anybody else\n\ncomplete and utter nonsense. It's only confusing. Christ. Seriously. The insanity is so strong in the ARM version names that it burns. If it really makes sense to anybody\n\nyou need to have your head examined. So please don't use \"aarch64\", because it's just f*cking crazy. And please don't use \"armv8\", because it's just completely retarded and confused."
+  },
+  {
+    "date": "2012-07-16T07:50:18.000Z",
+    "source": "http://markmail.org/message/stthptqsofmabsfe",
+    "type": "B",
+    "text": "Guys, stop it now. Your \"problem\" isn't what any sane person cares about, and isn't what I started the RFC for. Seriously. NOBODY CARES.\n\nStop whining."
+  },
+  {
+    "date": "2012-07-23T10:08:58.000Z",
+    "source": "http://markmail.org/message/7uuk2at4vzrd3vve",
+    "type": "B",
+    "text": "Seriously. People who use BUG() statements like some kind of assert() are a menace to society. They kill machines."
+  },
+  {
+    "date": "2012-07-31T12:53:42.000Z",
+    "source": "http://markmail.org/message/ulgml3kxn4ys56ez",
+    "type": "C",
+    "text": "And the commit seems to be pure shit. Why is it pure shit? Look at what users are left. THERE ARE NO USERS THAT SET THAT FIELD ANY MORE!\n\nI've pulled the changes for now, but I absolutely *detest* seeing things like this.\n\n"
+  },
+  {
+    "date": "2012-09-05T17:46:40.000Z",
+    "source": "http://markmail.org/message/bjt22z2iyiidsij3",
+    "type": "C",
+    "text": "Stop this \"we can break stuff\" crap. Who maintains udev? Regressions are not acceptable. I'm not going to change the kernel because udev broke, f*ck it. Seriously. More projects need to realize that regressions are totally and utterly unacceptable.\n\nThat just encourages those package maintainers to be shit maintainers.\n\nAnd stop blaming the kernel for user space breakage!\n\n"
+  },
+  {
+    "date": "2012-09-14T12:14:34.000Z",
+    "source": "http://markmail.org/message/adaxvroyz33wz2ff",
+    "type": "B",
+    "text": "This patch is insane. This is pure garbage. Anybody who thinks this:\n\nis a good idea should be shot. Don't do it.\n\nThat's just f*cking insane. Stop this kind of idiocy. The code looks bad, and the logic is pure shit too."
+  },
+  {
+    "date": "2012-09-16T10:56:37.000Z",
+    "source": "http://markmail.org/message/j3uroyzkdx3nqghw",
+    "type": "C",
+    "text": "\n\nAnd it really is all stupidly and badly done. I bet we can make that code faster without really changing the  end result at all, just changing the algorithm.\n\nIn fact, looking at select_idle_sibling(), I just want to puke. The thing is crazy.\n\ninstead it does totally f*cking insane things\n\nThe code is shit. Just fix the shit, instead of trying to come up with some totally different model. Ok?\n\n"
+  },
+  {
+    "date": "2012-09-30T08:50:58.000Z",
+    "source": "http://markmail.org/message/exu4jozhhfdbxf3t",
+    "type": "B",
+    "text": "\n\nI don't understand why this seems to be so hard for people to understand.\n\nthis whole thread is a wonderful example of how F*CKING STUPID it was to even consider it.\n\nSO STOP DOING ABI CHANGES. WE DON'T DO THEM.\n\nbut anybody who does it on purpose \"just because\" should not be involved in kernel development (or library development for that matter)."
+  },
+  {
+    "date": "2012-10-03T05:44:07.000Z",
+    "source": "http://markmail.org/message/2s4sahuqnnfxytjc",
+    "type": "B",
+    "text": "Stop this idiocy.\n\nThe fact that you then continually try to make this a \"kernel issue\" is just disgusting. Talking about the kernel solving it \"properly\" is pretty dishonest, when the kernel wasn't the problem in the first place. "
+  },
+  {
+    "date": "2012-10-03T09:06:47.000Z",
+    "source": "http://markmail.org/message/5fqjb4vjzh6idyzm",
+    "type": "P",
+    "text": "I also call bullshit on your \"it will surely be fixed when we know what's the right fix\" excuses. The fact is, you've spent the last several months blaming everybody but yourself, and actively told people to stop blaming you:\n\ndespite having clearly seen the patch (you *replied* to it, for chissake, and I even told you in that same thread why that reply was wrong at the time).\n\nKay, you are so full of sh*t that it's not funny. You're refusing to acknowledge your bugs, you refuse to fix them even when a patch is sent to you, and then you make excuses for the fact that we have to work around *your* bugs, and say that we should have done so from the very beginning. Yes, doing it in the kernel is \"more robust\". But don't play games, and stop the lying."
+  },
+  {
+    "date": "2012-10-13T15:33:52.000Z",
+    "source": "http://markmail.org/message/drhzuge43dxaqfqb",
+    "type": "C",
+    "text": "David, I want to make it very clear that if you *ever* suggest another big include file cleanup, I will say \"f*ck no\" and block you from my emails forever. Ok? So don't bother. We're done with these kinds of games. Forever. It's not worth it, don't ever suggest it again for some other \"cleanup\"."
+  },
+  {
+    "date": "2012-10-17T13:44:05.000Z",
+    "source": "http://markmail.org/message/r3sjrhts3t7bqdxm",
+    "type": "C",
+    "text": "That's just disgusting crazy talk. Christ, David, get a grip on yourself.\n\n"
+  },
+  {
+    "date": "2012-10-25T11:10:04.000Z",
+    "source": "http://markmail.org/message/54aixu5ngczjm46r",
+    "type": "C",
+    "text": "Stop doing this f*cking crazy ad-hoc \"I have some other name available\" #defines. Use the same name, for chissake! Don't make up new random names. Just do\n\nto define the generic thing. Instead of having this INSANE \"two different names for the same f*cking thing\" crap. Stop it. Really.\n\nSo NAK on this whole patch. It's bad. It's ugly, it's wrong, and it's actively buggy."
+  },
+  {
+    "date": "2012-10-25T11:16:56.000Z",
+    "source": "http://markmail.org/message/heh52ti35sar5odm",
+    "type": "B",
+    "text": "Did anybody ever actually look at this sh*t-for-brains patch? Yeah, I'm grumpy. But I'm wasting time looking at patches that have new code in them that is stupid and retarded. This is the VM, guys, we don't add stupid and retarded code. LOOK at the code, for chrissake. Just look at it. And if you don't see why the above is stupid and retarded, you damn well shouldn't be touching VM code."
+  },
+  {
+    "date": "2012-10-25T17:56:25.000Z",
+    "source": "http://markmail.org/message/kmaq7fosctfrme6y",
+    "type": "B",
+    "text": "Rik, *LOOK* at the code like I asked you to, instead of making excuses for it. I'm not necessarily arguing with what the code tries to do. I'm arguing with the fact that the code is pure and utter *garbage*. It has two major (and I mean *MAJOR*) problems, both of which individually should make you ashamed for ever posting that piece of shit: The obvious-without-even-understanding-semantics problem: - it's humongously stupidly written. It calculates that 'flush_remote' flag WHETHER IT GETS USED OR NOT. Christ. I can kind of expect stuff like that in driver code etc, but in VM routines? Yes, the compiler may be smart enough to actually fix up the idiocy. That doesn't make it less stupid. The more-subtle-but-fundamental-problem: - regardless of how stupidly written it is on a very superficial level, it's even more stupid in a much more fundamental way.\n\nIn other words, everything that was added by that patch is PURE AND UTTER SHIT. And THAT is what I'm objecting to.\n\nBecause everything I see about \"flush_remote\" looks just wrong, wrong, wrong. And if there really is some reason for that whole flush_remote braindamage, then we have much bigger problems\n\nSo that patch should be burned, and possibly used as an example of horribly crappy code for later generations. At no point should it be applied."
+  },
+  {
+    "date": "2012-10-26T11:11:49.000Z",
+    "source": "http://markmail.org/message/sw7db56lvg3o6dsu",
+    "type": "C",
+    "text": "But dammit, every single discussion I see, you use some *other* argument for it, like \"people don't have initrd\" or whatever crazy crap. That's what I was objecting to."
+  },
+  {
+    "date": "2012-10-26T11:26:49.000Z",
+    "source": "http://markmail.org/message/tjvpodxvfwhdg3gk",
+    "type": "B",
+    "text": "Kees, you don't seem to understand. Breaking applications is unacceptable. End of story. It's broken them. Get over it.\n\nYour \"IT HAS TO BE DONE AT BOOT TIME, THE SKY IS FALLING, NOTHING ELSE IS ACCEPTABLE!\" ranting is a disease. Stop it."
+  },
+  {
+    "date": "2012-11-01T15:23:51.000Z",
+    "source": "http://markmail.org/message/rcu6l5l2a4h5pxeb",
+    "type": "C",
+    "text": "We've been here before, haven't we? There's so much wrong with this that it's not funny.\n\nAnd I know you can do them, because you've done them in the past. So please don't continue to do the above."
+  },
+  {
+    "date": "2012-11-12T16:22:18.000Z",
+    "source": "http://markmail.org/message/fum42xlb6uv455py",
+    "type": "C",
+    "text": "What part of \"We don't break user space\" do you have trouble understanding?\n\nEnd of discussion. I don't understand why people have such a hard time understanding such a simple concept.\n\nSeriously, IT IS THAT SIMPLE."
+  },
+  {
+    "date": "2012-11-16T06:31:38.000Z",
+    "source": "http://markmail.org/message/lnxwloth4pmzojvs",
+    "type": "B",
+    "text": "PLEASE NO! Dammit, why is this disease still so prevalent, and why do people continue to do this crap? __HAVE_ARCH_xyzzy is a f*cking retarded thing to do, and that's actually an insult to retarded people.\n\nThe\n\nthing is a disease.\n\n"
+  },
+  {
+    "date": "2012-11-19T16:01:50.000Z",
+    "source": "http://markmail.org/message/es442swgwwt3styg",
+    "type": "B",
+    "text": "Ingo, stop doing this kind of crap.\n\nYou seem to be in total denial.\n\nStop it. That kind of \"head-in-the-sand\" behavior is not conducive to good code,\n\nSeriously. If you can't make the non-THP case go faster, don't even bother sending out the patches. Similarly, if you cannot take performance results from others, don't even bother sending out the patches.\n\nSo stop ignoring the feedback, and stop shooting the messenger. Look at the numbers, and admit that there is something that needs to be fixed."
+  },
+  {
+    "date": "2012-11-21T08:02:06.000Z",
+    "source": "http://markmail.org/message/untgvt4vwfcdods4",
+    "type": "B",
+    "text": "Ingo, stop it already! This is *exactly* the kind of \"blame everybody else than yourself\" behavior that I was talking about earlier.\n\nIngo, look your code in the mirror some day, and ask yourself: why do you think this fixes a \"regression\"?\n\nSo by trying to make up for vsyscalls only in your numbers, you are basically trying to lie about regressions, and try to cover up the schednuma regression by fixing something else.\n\nSee? That's bogus. When you now compare numbers, YOU ARE LYING. You have introduced a performance regression, and then trying to hide it by making something else go faster.\n\nThe same is true of all your arguments about Mel's numbers wrt THP etc. Your arguments are misleading - either intentionally, of because you yourself didn't think things through.\n\n"
+  },
+  {
+    "date": "2012-11-29T10:50:20.000Z",
+    "source": "http://markmail.org/message/clmcwj3xd77qm4am",
+    "type": "C",
+    "text": "\n\nChrist. That code is a mess.\n\n"
+  },
+  {
+    "date": "2012-11-29T11:10:30.000Z",
+    "source": "http://markmail.org/message/erlfs2pnavasy7d4",
+    "type": "C",
+    "text": "The games with \"max_block\" are hilarious. In a really sad way. That whole blkdev_get_blocks() function is pure and utter shit."
+  },
+  {
+    "date": "2012-11-29T13:16:27.000Z",
+    "source": "http://markmail.org/message/aqobzj5zdjcu4gn6",
+    "type": "C",
+    "text": "What a crock. That direct-IO code is hack-upon-hack. Whoever wrote it should be shot.\n\n"
+  },
+  {
+    "date": "2012-12-01T12:15:59.000Z",
+    "source": "http://markmail.org/message/5ggie5rmwjtqg66y",
+    "type": "C",
+    "text": "No. That patch is braindead. I wouldn't pull it even if it wasn't this late.\n\nWhat the f*ck is the point?\n\nWhat am I missing?"
+  },
+  {
+    "date": "2012-12-05T06:45:16.000Z",
+    "source": "http://markmail.org/message/bg7vnscuskyqygzi",
+    "type": "B",
+    "text": "Christ guys. This whole thread is retarded. The *ONLY* reason people seem to have for reverting that is a \"ooh, my feelings are hurt by how this was done, and now I'm a pissy bitch and I want to get this reverted\". Stop the f*cking around already.\n\nAnd if your little feelings got hurt, get your mommy to tuck you in, don't email me about it. Because I'm not exactly known for my deep emotional understanding and supportive personality, am I?"
+  },
+  {
+    "date": "2012-12-06T07:50:31.000Z",
+    "source": "http://markmail.org/message/c7eqwpq7yt6xgwwf",
+    "type": "C",
+    "text": "Ugh. This patch makes my eyes bleed.\n\nSo I guess this patch fixes things, but it does make me go \"That's really *really* ugly\"."
+  },
+  {
+    "date": "2012-12-07T09:17:37.000Z",
+    "source": "http://markmail.org/message/ujigvddzqf3ohtf3",
+    "type": "B",
+    "text": "Christ, I promised myself to not respond any more to this thread, but the insanity just continues, from people who damn well should know better.\n\nSo stop these dishonest and disingenious arguments. They are full of crap.\n\nEvery single argument I've heard of from the \"please revert\" camp has been inane. And they've been *transparently* inane, to the point where I don't understand how you can make them with a straght face and not be ashamed.\n\nBullshit\n\nAnybody who claims that our \"process\" requires that things like that go on the mailing list and pass long reviews and discussions IS JUST LYING.\n\nRead the above arguments, and realise how shrill and outright STUPID that kind of \"we can now do anything without review\" argument is.\n\nYou seem to seriously argue that it's a *bad* thing to put a note that one bit is already in use. That's f*cking moronic\n\nBut that's not what the insane and pointless arguments in this thread have been. The whole thread has been just choch-full of pure STUPID. Please stop the inane and idiotic arguments already. The \"we must review every one-liner, and this destroys and makes a mockery of our review process\" argument in particular has been dishonest and pure crap\n\n"
+  },
+  {
+    "date": "2012-12-11T09:35:34.000Z",
+    "source": "http://markmail.org/message/6zbrogfo7rrqh55a",
+    "type": "P",
+    "text": "The reading comprehension here is abysmal.\n\nAnd none of that matters for my argument AT ALL."
+  },
+  {
+    "date": "2012-12-12T18:51:29.000Z",
+    "source": "http://markmail.org/message/txbei2mxh2uut2ty",
+    "type": "C",
+    "text": "So please, just remove that idiotic \"if (!event->attr.exclude_guest)\" test. It's wrong. It cannot possibly do the right thing.  It is totally misdesigned, exactly because you don't even know beforehand if somebody uses virtualization or not."
+  },
+  {
+    "date": "2012-12-13T13:22:11.000Z",
+    "source": "http://markmail.org/message/djo5bcmnmbq2ipk5",
+    "type": "P",
+    "text": "Christ, why can't people learn?"
+  },
+  {
+    "date": "2012-12-16T10:57:46.000Z",
+    "source": "http://markmail.org/message/6ednzyn5lyzuwnna",
+    "type": "C",
+    "text": "Ugh. This patch is just too ugly. Conditional locking like this is just too disgusting for words.\n\nI'm not applying disgusting hacks like this.\n\nNo \"if (write) up_write() else up_read()\" crap. "
+  },
+  {
+    "date": "2012-12-18T07:49:25.000Z",
+    "source": "http://markmail.org/message/lcrjga7m5t5wzdjs",
+    "type": "C",
+    "text": "Grr. This is still bullshit. Doing this:\n\nis fundamentally crap\n\nSo doing *any* of these calculations in bytes is pure and utter crap.\n\nAnything that works in bytes is simply pure crap. And don't talk to me about 64-bit math and doing it in \"u64\" or \"loff_t\", that's just utterly moronic too.\n\nSo the math is confused, the types are confused, and the naming is confused. Please, somebody check this out, because now *I* am confused. And btw, that whole commit happened too f*cking late too.\n\nI'm grumpy, because all of this code is UTTER SH*T, and it was sent to me. Why?"
+  },
+  {
+    "date": "2012-12-21T07:53:10.000Z",
+    "source": "http://markmail.org/message/h73brnajmgtx6t6x",
+    "type": "B",
+    "text": "Christ, Mel. Your reasons in b22d127a39dd are weak as hell, and then you come up with *THIS* shit instead:\n\nHeck no. In fact, not a f*cking way in hell. Look yourself in the mirror, Mel. This patch is ugly, and *guaranteed* to result in subtle locking issues, and then you have the *gall* to quote the \"uhh, that's a bit ugly due to some trivial duplication\" thing in commit\n\ncompared to the diseased abortion you just posted\n\n"
+  },
+  {
+    "date": "2012-12-23T08:35:52.000Z",
+    "source": "http://markmail.org/message/3d3xulbwivjeotio",
+    "type": "B",
+    "text": "Mauro, SHUT THE FUCK UP! It's a bug alright - in the kernel. How long have you been a maintainer? And you *still* haven't learnt the first rule of kernel maintenance?\n\nShut up, Mauro. And I don't _ever_ want to hear that kind of obvious garbage and idiocy from a kernel maintainer again. Seriously.\n\nThe fact that you then try to make *excuses* for breaking user space, and blaming some external program that *used* to work, is just shameful. It's not how we work. Fix your f*cking \"compliance tool\", because it is obviously broken. And fix your approach to kernel programming"
+  },
+  {
+    "date": "2012-12-23T13:28:41.000Z",
+    "source": "http://markmail.org/message/cfwfzsfse5qhdcoq",
+    "type": "C",
+    "text": "Yes, I'm upset. Very upset.\n\nSo your question \"why would pulseaudio care\" is totally *irrelevant*, senseless, and has nothing to do with anything."
+  },
+  {
+    "date": "2013-01-02T09:14:00.000Z",
+    "source": "http://markmail.org/message/sqsdlnspk4o6wcku",
+    "type": "B",
+    "text": "No. I'm not pulling 3000 lines of broken defconfig crap. That defconfig update is pure and utter shit, and changes from the minimal kind of defconfig to the old-style \"everything and the kitchen sink\" crap. We started doing that defconfig minimization for a reason. See commit 8b1bb90701f9 for example. We're not going back to the bad old days, and I'm not pulling thousands of lines or pure garbage noise just because you were too lazy to do it right."
+  },
+  {
+    "date": "2013-01-12T11:51:26.000Z",
+    "source": "http://markmail.org/message/dxuql7eif6jzrfgm",
+    "type": "B",
+    "text": "Christ people. I already reported that it DOES NOT EVEN COMPILE.\n\nAlan apparently doesn't care about the patch he wrote to even bother fixing that, and the only person who does seem to care enough to carry two fixes around (Andrew) apparently doesn't feel that he's comfortable forwarding it to me\n\nI'm not picking up random patches from people who don't care enough about those patches to even bother fixing compile errors when reportyed and didn't even send them to me to begin with."
+  },
+  {
+    "date": "2013-01-14T08:29:55.000Z",
+    "source": "http://markmail.org/message/azgsopo63xulybfj",
+    "type": "B",
+    "text": "Bullshit. That expectation is just a fact.\n\nWe do not say \"user mode shouldn't\". Seriously. EVER. User mode *does*, and we deal with it. Learn it now, and stop ever saying that again. This is really starting to annoy me. Kernel developers who say \"user mode should be fixes to not do that\" should go somewhere else. "
+  },
+  {
+    "date": "2013-01-15T08:36:34.000Z",
+    "source": "http://markmail.org/message/a33yo653hshtlorn",
+    "type": "C",
+    "text": "No way.\n\nIn fact, just to prove how bad it is, YOU SCREWED IT UP YOURSELF.\n\nBut the \"hacky workaround\" absolutely needs to be *automatic*. Because the \"driver writers need to get this subtle untestable thing right\" is *not* acceptable. That's the patch that Ming Lei did, and I refuse to have that kind of fragile crap in the kernel."
+  },
+  {
+    "date": "2013-02-07T16:09:11.000Z",
+    "source": "http://markmail.org/message/lgbu2h56mmrlyhov",
+    "type": "C",
+    "text": "No. You guys need to realize that I'm not talking crap like this this late. This is not major bugfixes. I already looked away once just because it's a new filesystem, but enough is enough. This is way way WAY too late to start sendign \"enhancements\". Seriously."
+  },
+  {
+    "date": "2013-02-08T12:14:20.000Z",
+    "source": "http://markmail.org/message/dlcehtdw2iylosx4",
+    "type": "B",
+    "text": "No. Your pull requests are just illogical. I have yet to see a single reason why it should be merged.\n\nThat's total bullshit.\n\nAgain, total *bullshit*.\n\n\n\nIngo, it's not us being silly, it is *you*.\n\nSo here, let me state it very very clearly: I will not be merging kvmtool.\n\nIn other words, I don't see *any* advantage to merging kvmtool. I think merging it would be an active mistake, and would just tie two projects together that just shouldn't be tied together. So nobody is \"hurting useful code\", except perhaps you. Explain to me why I'm wrong. I don't think you can. You certainly haven't so far."
+  },
+  {
+    "date": "2013-02-08T15:45:27.000Z",
+    "source": "http://markmail.org/message/zsagmx3labefqnj7",
+    "type": "B",
+    "text": "NONE of your statements made any sense at all, since everything you talk about could have been done with a separate project. The only thing the lock-step does is to generate the kind of dependency that I ABSOLUTELY DETEST,"
+  },
+  {
+    "date": "2013-02-09T09:07:22.000Z",
+    "source": "http://markmail.org/message/wes3zmjkc7cvhvtp",
+    "type": "P",
+    "text": "You do realize that none of your arguments touched the \"why should Linus merge the tree\" question at all? Everything you said was about how it's more convenient for you and Ingo, not at all about why it should be better for anybody else.\n\nYou're the only one working on it, so being convenient for you is the primary issue. Arguments like that actively make me not want to merge it,\n\n"
+  },
+  {
+    "date": "2013-02-09T10:57:18.000Z",
+    "source": "http://markmail.org/message/fajyuralww7ecu46",
+    "type": "B",
+    "text": "Why? You've made this statement over and over and over again, and I've dismissed it over and over and over again because I simply don't think it's true. It's simply a statement with nothing to back it up. Why repeat it? THAT is my main contention. I told you why I think it's actually actively untrue.\n\nSo you make these unsubstantiated claims about how much easier it is, and they make no sense. You never explain *why* it's so magically easier.\n\nAnyway, I'm done arguing. You can do what you want, but just stop misrepresenting it as being \"linux-next\" material unless you are willing to actually explain why it should be so."
+  },
+  {
+    "date": "2013-02-11T14:32:03.000Z",
+    "source": "http://markmail.org/message/v7zrdos3ivvwyy3j",
+    "type": "B",
+    "text": "Ingo, stop this idiotic nonsense. You seem to think that \"kvmtool is useful for kernel\" is somehow relevant. IT IS TOTALLY IRRELEVANT."
+  },
+  {
+    "date": "2013-02-11T18:32:39.000Z",
+    "source": "http://markmail.org/message/v4qqvcyonunfr4f7",
+    "type": "C",
+    "text": "Christ. This is so ugly that it's almost a work of art."
+  },
+  {
+    "date": "2013-02-13T07:20:19.000Z",
+    "source": "http://markmail.org/message/4n3bz5v7zcilvwec",
+    "type": "C",
+    "text": "Did anybody actually look at the code generation of this? Adding an external function call is *horrible*,\n\nGuys, the biggest cost of a function call is not the \"call\" instruction, it's all the crap around it\n\nAnd the excuse is \"so that we can add stuff to the wait loop\". What the f*ck?\n\nand which is something we have actively *avoided* in the past, because back-off is a f*cking idiotic thing, and the only real fix for contended spinlocks is to try to avoid the contention and fix the caller to do something smarter to begin with. In other words, the whole f*cking thing looks incredibly broken. At least give some good explanations for why crap like this is needed\n\n"
+  },
+  {
+    "date": "2013-02-13T13:39:50.000Z",
+    "source": "http://markmail.org/message/u7s4aiysqw22yoks",
+    "type": "B",
+    "text": "So you're potentially making things worse for just about everybody, in order to fix a problem that almost nobody can actually see. And apparently you don't even know the problem.. and as I already explained, THAT IS PURE AND UTTER BULLSHIT. It may make things WORSE. On all the things you haven't run to check that it does better. You just stated something that is not at all necessarily true.\n\nThat's pure bullshit.\n\nAnd yet you go on to say that it will fix performance problems THAT WE DON'T EVEN KNOW ABOUT! After seeing *proof* to the exact contrary behavior! What f*cking planet are you from, again? Christ, that's hubris.\n\n"
+  },
+  {
+    "date": "2013-02-15T16:44:10.000Z",
+    "source": "http://markmail.org/message/yfj2wsfb53wooham",
+    "type": "C",
+    "text": "Christ, we should just try to get rid of the personality bits entirely, they are completely insane"
+  },
+  {
+    "date": "2013-02-21T07:39:15.000Z",
+    "source": "http://markmail.org/message/ri3kexilpdikwffk",
+    "type": "C",
+    "text": "Quite frankly, this is f*cking moronic."
+  },
+  {
+    "date": "2013-02-21T07:58:08.000Z",
+    "source": "http://markmail.org/message/5vnikbcmtiy37trs",
+    "type": "B",
+    "text": "Guys, this is not a dick-sucking contest.\n\nIf Red Hat wants to deep-throat Microsoft, that's *your* issue."
+  },
+  {
+    "date": "2013-02-21T09:02:57.000Z",
+    "source": "http://markmail.org/message/ayphowwkqhokglgq",
+    "type": "C",
+    "text": "Quite frankly, I doubt that anybody will ever care,\n\nPlus quite frankly, signing random kernel vendor modules (indirectly) with a MS key is f*cking stupid to begin with. In other words, I really don't see why we should bend over backwards, when there really is no reason to. It's adding stupid code to the kernel only to encourage stupidities in other people.\n\nAnd the whole \"no, we only think it makes sense to trust MS keys\" argument is so f*cking stupid that if somebody really brings that up, I can only throw my hands up and say \"whatever\". In other words, none of this makes me think that we should do stupid things just to perpetuate the stupidity. "
+  },
+  {
+    "date": "2013-02-21T09:21:06.000Z",
+    "source": "http://markmail.org/message/noa6avyls3prnljg",
+    "type": "C",
+    "text": "Ugh. The placement of that #ifndef is just horrible, please don't do that."
+  },
+  {
+    "date": "2013-02-21T09:25:06.000Z",
+    "source": "http://markmail.org/message/fg2kiaccjm3umykj",
+    "type": "B",
+    "text": "Your arguments only make sense if you accept those insane assumptions to begin with. And I don't."
+  },
+  {
+    "date": "2013-02-22T12:07:37.000Z",
+    "source": "http://markmail.org/message/ymksyompaadrlpeo",
+    "type": "C",
+    "text": "The softirq semantics are perfectly fine. Don't blame softirq for the fact that irq_exit() has had shit-for-brains for a long time.\n\nDon't blame the wrong code here."
+  },
+  {
+    "date": "2013-02-22T15:29:46.000Z",
+    "source": "http://markmail.org/message/crdmpdgia7w2kc3v",
+    "type": "B",
+    "text": "Rafael, please don't *ever* write that crap again.\n\nSeriously. Why do I even have to mention this? Why do I have to explain this to somebody pretty much *every* f*cking merge window? This is not a new rule.\n\nSo you should be well acquainted with the rule, and I'm surprised to hear that kind of utter garbage from you in particular.\n\n"
+  },
+  {
+    "date": "2013-02-25T18:31:26.000Z",
+    "source": "http://markmail.org/message/nkatkgctxzv6efs2",
+    "type": "B",
+    "text": "And you're happy shilling for a broken model?\n\nYour arguments constantly seem to miss that rather big point. You think this is about bending over when MS whispers sweet nothings in your ear..\n\nYou, on the other hand, seem to have drunk the cool-aid on the whole \"let's control the user\" crap. Did you forget what security was all about?"
+  },
+  {
+    "date": "2013-02-25T18:44:46.000Z",
+    "source": "http://markmail.org/message/jv7pjzgaugm4bbud",
+    "type": "B",
+    "text": "How f*cking hard is it for you to understand? Stop arguing about what MS wants. We do not care. We care bout the *user*. You are continually missing the whole point of security, and then you make some idiotic arguments about what MS wants you to do. It's irrelevant. The only thing that matters is what our *users* want us to do, and protecting *their* rights. As long as you seem to treat this as some kind of \"let's please MS, not our users\" issue, all your arguments are going to be crap."
+  },
+  {
+    "date": "2013-02-25T19:30:31.000Z",
+    "source": "http://markmail.org/message/agrpwdrqk3htku5x",
+    "type": "B",
+    "text": "\n\nStop the fear mongering already. So here's what I would suggest, and it is based on REAL SECURITY and on PUTTING THE USER FIRST instead of your continual \"let's please microsoft by doing idiotic crap\" approach.\n\nQuite frankly, *you* are what he key-hating crazies were afraid of. You peddle the \"control, not security\" crap-ware. The whole \"MS owns your machine\" is *exactly* the wrong way to use keys."
+  },
+  {
+    "date": "2013-02-25T19:43:19.000Z",
+    "source": "http://markmail.org/message/pebyvitew3mmel2h",
+    "type": "P",
+    "text": "This is the kind of totally bogus crap that no sane person should ever spout. Stop it."
+  },
+  {
+    "date": "2013-02-27T07:56:45.000Z",
+    "source": "http://markmail.org/message/5kd5gx6lowz34hwg",
+    "type": "C",
+    "text": "I would love to blame gcc, but no, I think the code is crap.\n\nAnd gcc would be completely correct. That test is moronic."
+  },
+  {
+    "date": "2013-02-28T19:18:04.000Z",
+    "source": "http://markmail.org/message/qmxezyrnc4rgeiwt",
+    "type": "B",
+    "text": "Has Chris Ball been told what an incredible pain this kind of crap is, and that there's a damn good reason why WE DO NOT REBASE PUBLIC TREES THAT OTHERS MAY BE BASING THEIR DEVELOPMENT ON! Chris, can you hear me shouting? Don't do that."
+  },
+  {
+    "date": "2013-03-01T09:03:09.000Z",
+    "source": "http://markmail.org/message/7vojjlvgvx3pg6ih",
+    "type": "C",
+    "text": "Yeah, that would be a no. I finally got to look at the new architectures and be ready to pull them, and you just made sure I won't pull this. This is exactly the kind of crap I don't want to see in *any* pull requests,\n\nWhy the f*ck are you doing back-merges? There is no excuse for even a single one. And here you have just about one back-merge per commit. No, no no."
+  },
+  {
+    "date": "2013-03-07T06:55:02.000Z",
+    "source": "http://markmail.org/message/z3sqbcs5zvttxvs5",
+    "type": "C",
+    "text": "No, guys. That cannot work. It's a completely moronic idea. "
+  },
+  {
+    "date": "2013-03-07T12:50:59.000Z",
+    "source": "http://markmail.org/message/luivhcj5s3tmnhg3",
+    "type": "P",
+    "text": "Yeah, I'm a f*cking moron."
+  },
+  {
+    "date": "2013-03-26T08:07:45.000Z",
+    "source": "http://markmail.org/message/wnh5hpofc6u5ux3k",
+    "type": "B",
+    "text": "Bullshit. This is a regression, and it needs to be fixed. The \"device needs power\" crap is just that - crap. Nobody cares.\n\nClaiming that we need to know the power regulator for an accelerometer is total utter idiocy and crap.\n\nThe notion that you have to have regulator information in order to use some random device is insanity. I don't understand how you can even start to make excuses like that. It's so obviously bogus that it's not even funny. Why do I have to explain the \"no regressions\" to long-time kernel maintainers EVERY SINGLE RELEASE? What the f*ck is *wrong* with you people? Seriously?"
+  },
+  {
+    "date": "2013-03-29T10:08:00.000Z",
+    "source": "http://markmail.org/message/dnkiqq7dw4wc5ylj",
+    "type": "C",
+    "text": "No it's not.\n\nwhich is entirely and utterly pointless. Christ, the amount of confusion in that tree.\n\nDon't do this kind of thing. That branch is pointless, and just confused you."
+  },
+  {
+    "date": "2013-03-29T11:56:47.000Z",
+    "source": "http://markmail.org/message/fqeuavztempqtt4e",
+    "type": "C",
+    "text": "Because you screwed up that pull request, and I argue that you screwed up exactly *because* it's ambiguous and confusing."
+  },
+  {
+    "date": "2013-04-06T07:13:15.000Z",
+    "source": "http://markmail.org/message/zydmz4wtbkm5raty",
+    "type": "C",
+    "text": "This is all *COMPLETELY* wrong.\n\nFix ARC, don't try to blame generic code. You should have asked yourself why only ARC saw this bug, when the code apparently works fine for everybody else!"
+  },
+  {
+    "date": "2013-04-07T19:47:42.000Z",
+    "source": "http://markmail.org/message/tymjfm4sler2maof",
+    "type": "C",
+    "text": "That's absolutely insane. It's insane for two reasons: - it's not SUFFICIENT.\n\n- it's POINTLESS and WRONG.\n\n"
+  },
+  {
+    "date": "2013-04-09T05:32:02.000Z",
+    "source": "http://markmail.org/message/tquutcp3how7so4i",
+    "type": "P",
+    "text": "I'm a moron."
+  },
+  {
+    "date": "2013-04-24T12:30:14.000Z",
+    "source": "http://markmail.org/message/ww3kki6aafcc3int",
+    "type": "B",
+    "text": "Bullshit. That's exactly the wrong kind of thinking.\n\nThis whole discussion has been f*cking moronic. The \"security\" arguments have been utter shite with clearly no thinking behind it, the feature is total crap\n\nand I'm seriously considering just getting rid of this idiotic dmesg_restrict thing entirely. Your comment is the very epitome of bad security thinking."
+  },
+  {
+    "date": "2013-04-30T05:49:13.000Z",
+    "source": "http://markmail.org/message/z4tgggqhp4bzaobu",
+    "type": "C",
+    "text": "Why does this have the crappy cputime scaling overflow code,\n\nWTF happened here? I and others spent efforts so that we wouldn't need this kind of crap."
+  },
+  {
+    "date": "2013-05-01T08:10:51.000Z",
+    "source": "http://markmail.org/message/x7dppnevszkf32t7",
+    "type": "C",
+    "text": "Ugh. Sorry, but this patch just looks stupid."
+  },
+  {
+    "date": "2013-05-03T07:55:45.000Z",
+    "source": "http://markmail.org/message/czm34752nkrdcsyl",
+    "type": "P",
+    "text": "F*ck yes it does. It means that NOBODY EVEN TEST-COMPILED THE TREE THAT GOT SENT TO ME. WTF? If that's not \"irresponsible and lame\", I don't know what the hell is."
+  },
+  {
+    "date": "2013-05-03T12:48:23.000Z",
+    "source": "http://markmail.org/message/bfb52yzgga25ekbl",
+    "type": "B",
+    "text": "And you are making that excuse exactly *why*?\n\nStop making excuses for bad behavior. Just admit that you guys screwed up rather than trying to soldier on.\n\nThat's a f*cking disgrace.\n\nStop making excuses for it. Really. It just makes you look even worse.\n\n"
+  },
+  {
+    "date": "2013-05-11T13:22:14.000Z",
+    "source": "http://markmail.org/message/k3wjhpzykhjs6d46",
+    "type": "C",
+    "text": "This has so much wrong that I don't know where to start."
+  },
+  {
+    "date": "2013-06-09T12:33:13.000Z",
+    "source": "http://markmail.org/message/gubc7op3sndc26kx",
+    "type": "C",
+    "text": "Not pulled, because your hamster smells of eldeberries. This is not just bugfixes. In fact, as far as I can tell, this *introduces* bugs,\n\nI'm f*cking tired of people having problems understanding \"we're past rc5\". If it's not something you would call stable material, you shouldn't send it to me."
+  },
+  {
+    "date": "2013-06-10T11:03:47.000Z",
+    "source": "http://markmail.org/message/ahfmn75iictvv7hs",
+    "type": "C",
+    "text": "That patch is really ugly. And it doesn't make much sense.\n\nSo the patch seems to make things just worse."
+  },
+  {
+    "date": "2013-07-07T12:31:51.000Z",
+    "source": "http://markmail.org/message/n2llxam2eakjj5dx",
+    "type": "P",
+    "text": "What the F*CK is wrong with people?"
+  },
+  {
+    "date": "2013-07-09T17:50:18.000Z",
+    "source": "http://markmail.org/message/2sa6oh7tlbn6wpst",
+    "type": "C",
+    "text": "David, what the heck are you doing?\n\nSeriously. Those commits now have TOTALLY MISLEADING summary messages.\n\n"
+  },
+  {
+    "date": "2013-07-10T17:11:30.000Z",
+    "source": "http://markmail.org/message/34bxbzbympklsjik",
+    "type": "C",
+    "text": "THIS IS SOME HORRIBLY BROKEN CRAP.\n\nDammit, this has happened before, and it was broken then, and it is broken now. If they do, they are *F*CKING*BROKEN*.\n\nYou need to start being more careful.\n\nThere is no excuse for this. That commit is shit.\n\nAnd that totally crap commit is even marked for stable. I hate hate hate when this kind of crap happens. "
+  },
+  {
+    "date": "2013-07-11T10:33:10.000Z",
+    "source": "http://markmail.org/message/pnxj6xr332gu4oog",
+    "type": "C",
+    "text": "Grr. I hate it when people do this. Your merge message sucks."
+  },
+  {
+    "date": "2013-07-12T06:22:04.000Z",
+    "source": "http://markmail.org/message/mmvlphelw5gea4lw",
+    "type": "B",
+    "text": "That's f*cking sad. You know *why* it's sad?\n\nNow, that should make you think about THE ABSOLUTE CRAP YOU MARK FOR -stable!\n\nListen to yourself. In fact, there is a damn good solution\": don't mark crap for stable, and don't send crap to me after -rc4.\n\nGreg, the reason you get a lot of stable patches seems to be that you make it easy to act as a door-mat.\n\nYou may need to learn to shout at people."
+  },
+  {
+    "date": "2013-07-13T13:40:01.000Z",
+    "source": "http://markmail.org/message/6h3gtqeizljyjqio",
+    "type": "C",
+    "text": "What the F*CK, guys? This piece-of-shit commit is marked for stable, but you clearly never even test-compiled it, did you?\n\nThe declaration for gate_desc is very very different for 32-bit and 64-bit x86 for whatever braindamaged reasons. Seriously, WTF? I made the mistake of doing multiple merges back-to-back with the intention of not doing a full allmodconfig build in between them, and now I have to undo them all because this pull request was full of unbelievable shit. And why the hell was this marked for stable even *IF* it hadn't been complete and utter tripe? It even has a comment in the commit message about how this probably doesn't matter. So it's doubly crap: it's *wrong*, and it didn't actually fix anything to begin with. There aren't enough swear-words in the English language, so now I'll have to call you perkeleen vittupää just to express my disgust and frustration with this crap."
+  },
+  {
+    "date": "2013-07-14T09:33:52.000Z",
+    "source": "http://markmail.org/message/h36hza3w6tc6wc3p",
+    "type": "C",
+    "text": "Ok. So your commit message and explanation was pure and utter tripe,"
+  },
+  {
+    "date": "2013-07-26T15:29:19.000Z",
+    "source": "http://markmail.org/message/sid3n3nvz5cewzdq",
+    "type": "C",
+    "text": "Ugh. I dislike this RCU'ism. It's bad code. It doesn't just look ugly and complex, it's also not even clever. It is possible that the compiler can fix up this horrible stuff and turn it into the nice clever stuff, but I dunno."
+  },
+  {
+    "date": "2013-08-22T07:53:14.000Z",
+    "source": "http://markmail.org/message/w5jkhwsqqr765nut",
+    "type": "C",
+    "text": "Please don't do these ugly and pointless preprocessor macro expanders that hide what the actual operation is. And this is really ugly. Again it's also then hidden behind the ugly macro.\n\n"
+  },
+  {
+    "date": "2013-09-05T11:41:49.000Z",
+    "source": "http://markmail.org/message/jthwd7tcgkdjujxz",
+    "type": "B",
+    "text": "Yes it damn well is. Stop the f*cking stupid arguments, and instead listen to what I say. Here. Let me bold-face the most important part for you, so that you don't miss it in all the other crap:\n\nNothing else. Seriously. Your \"you can't do it because we copy backwards\" arguments are pure and utter garbage,\n\nYou're complicating the whole thing for no good reason.\n\n"
+  },
+  {
+    "date": "2013-09-23T11:08:13.000Z",
+    "source": "http://markmail.org/message/3e7kuotauypbggjd",
+    "type": "C",
+    "text": "We should definitely drop it. The feature is an abomination. I thought gcc only allowed them at the end of structs, in the middle of a struct it's just f*cking insane beyond belief."
+  },
+  {
+    "date": "2013-10-05T14:17:32.000Z",
+    "source": "http://markmail.org/message/gfq4zrm3sjv3dfg7",
+    "type": "B",
+    "text": "What drugs are you on? Your example is moronic, and against all _documented_ uses of chroot."
+  },
+  {
+    "date": "2013-10-10T16:42:27.000Z",
+    "source": "http://markmail.org/message/eoldtrf5kv43ryk7",
+    "type": "C",
+    "text": "I can't even begin to say whether this is a good solution or not, because that if-conditional makes me want to go out and kill some homeless people to let my aggressions out. Can we please agree to *never* write code like this? Ever?"
+  },
+  {
+    "date": "2013-10-10T09:48:49.000Z",
+    "source": "http://markmail.org/message/6ed7vcd3drtzru2e",
+    "type": "C",
+    "text": "The whole \"it's more convenient to use sleeping locks\" argument is PURE AND UTTER SHIT when it comes to really core code.\n\nSeriously. Your argument is bad, but more importantly, it is *dangerously* bad. It's crap that results in bad code: and the bad code is almost impossible to fix up later\n\n"
+  },
+  {
+    "date": "2013-10-15T08:47:44.000Z",
+    "source": "http://markmail.org/message/zh5hmrt35h7aw7qp",
+    "type": "C",
+    "text": "So get your act together, and push back on the people you are supposed to manage. Because this is *not* acceptable for post-rc5, and I'm giving this single warning. Next time, I'll just ignore the sh*t you send me. Comprende?"
+  },
+  {
+    "date": "2013-10-25T05:33:05.000Z",
+    "source": "http://markmail.org/message/epfiszw6jrzdhycs",
+    "type": "C",
+    "text": "Not acceptable.\n\nPlase stop sending me untested crap that doesn't even compile cleanly!"
+  },
+  {
+    "date": "2013-10-27T11:22:40.000Z",
+    "source": "http://markmail.org/message/gxmmhefjyijrucsd",
+    "type": "B",
+    "text": "Stop this idiotic \"blame gcc bug\" crap. Which part of my explanation for why it was *NOT* a compiler bug did you not understand?\n\nStop the f*cking around already! The  whole \"we expect ww_ctx to be null\" thing shows that YOU DO NOT SEEM TO UNDERSTAND WHAT THE TEST ACTUALLY IS!\n\nChrist, can you really not understand that? NO NO NO NO. No a f*cking thousand times. It's not \"too broken in gcc\". It's too broken in the source code, and the fact that you don't even understand that is sad. You wrote the code, and you seem to be unable to admit that *your* code was buggy. It's not a compiler bug. It's your bug. Stand up like a man, instead of trying to flail around and blame anything else but yourself. So guys, get your act together, and stop blaming the compiler already."
+  },
+  {
+    "date": "2013-11-01T10:04:03.000Z",
+    "source": "http://markmail.org/message/4ebgm5lnsavu7vya",
+    "type": "C",
+    "text": "This looks totally invalid\n\nYour patch is horribly wrong."
+  },
+  {
+    "date": "2013-11-15T10:55:30.000Z",
+    "source": "http://markmail.org/message/65bftkuk3cumvw26",
+    "type": "P",
+    "text": "You need to also explain *why* people should apply it, and stop the f*cking idiotic arguing every time somebody comments about your patches.Stop this idiotic \"blame gcc bug\" crap. Which part of my explanation for why it was *NOT* a compiler bug did you not understand?\n\nStop the f*cking around already! The  whole \"we expect ww_ctx to be null\" thing shows that YOU DO NOT SEEM TO UNDERSTAND WHAT THE TEST ACTUALLY IS!\n\nChrist, can you really not understand that? NO NO NO NO. No a f*cking thousand times. It's not \"too broken in gcc\". It's too broken in the source code, and the fact that you don't even understand that is sad. You wrote the code, and you seem to be unable to admit that *your* code was buggy. It's not a compiler bug. It's your bug. Stand up like a man, instead of trying to flail around and blame anything else but yourself. So guys, get your act together, and stop blaming the compiler already."
+  },
+  {
+    "date": "2013-11-15T11:15:17.000Z",
+    "source": "http://markmail.org/message/sjy3fjyyyyfn3b55",
+    "type": "P",
+    "text": "My point is that I have sixteen pointless messages in my mbox, half of which are due to just your argumentative nature."
+  },
+  {
+    "date": "2013-11-19T09:47:13.000Z",
+    "source": "http://markmail.org/message/grt4baiscs4yr6d6",
+    "type": "C",
+    "text": "This seems to be just pure stupid.\n\nEven the help message is pure and utter garbage\n\nAsking the user questions that make no f*cking sense to ask is stupid. And I'm not knowingly pulling stupid crap."
+  },
+  {
+    "date": "2013-11-21T15:16:49.000Z",
+    "source": "http://markmail.org/message/xcbchfqfnnew7g7r",
+    "type": "B",
+    "text": "Why? You're wrong. I mean, anybody who disagrees with me is pretty much wrong just on pure principles, but I actually mean a deeper kind of wrong than that. I mean a very objective \"you're clearly wrong\".\n\n.. and then you use a totally bogus example to try to \"prove\" your point.\n\nYour example is pure and utter shit, since you still get confused about what is actually const and what isn't.\n\nBut that argument is BULLSHIT, because the fact is, the function *doesn't* do what you try to claim it does."
+  },
+  {
+    "date": "2013-12-03T09:59:53.000Z",
+    "source": "http://markmail.org/message/x75diahvbizh73rl",
+    "type": "C",
+    "text": "I think that code is bad, and you should feel bad."
+  },
+  {
+    "date": "2013-12-09T18:58:11.000Z",
+    "source": "http://markmail.org/message/s27yeuhbzjclo5kk",
+    "type": "C",
+    "text": "Grr. I've pulled it, but looking at that history, it's just pure and utter f*cking garbage."
+  },
+  {
+    "date": "2013-12-10T11:43:04.000Z",
+    "source": "http://markmail.org/message/zyo2xf6zmgckhmki",
+    "type": "B",
+    "text": "No it's not. Thomas, stop this crap already. Look at the f*cking code carefully instead of just dismissing cases.\n\nSo, Christ, Thomas, you have now *twice* dismissed a real concern with totally bogus \"that can never happen\" by explaining some totally unrelated *simple* case rather than the much more complex case. So please. Really. Truly look at the code and thing about it, or shut the f*ck up. No more of this shit where you glance at the code, find some simple case, and say \"that can't happen\", and dismiss the bug-report."
+  },
+  {
+    "date": "2013-12-19T11:01:53.000Z",
+    "source": "http://markmail.org/message/hsdp434ozq5z26cc",
+    "type": "C",
+    "text": "Ok, I'm sorry, but that's just pure bullshit then.\n\nThis code is pure and utter garbage. It's beyond the pale how crazy it is."
+  },
+  {
+    "date": "2013-12-23T09:42:40.000Z",
+    "source": "http://markmail.org/message/j2lpjzyu34b7c7bc",
+    "type": "C",
+    "text": "No. I think it makes sense to put a big warning on any users you find, and fart in the general direction of any developer who did that broken pattern. Because code like that is obviously crap."
+  },
+  {
+    "date": "2014-01-06T20:25:34.000Z",
+    "source": "http://markmail.org/message/n3enavikpanbpb2g",
+    "type": "C",
+    "text": "This looks completely broken to me.\n\nWtf? Am I missing something?"
+  },
+  {
+    "date": "2014-01-09T14:53:18.000Z",
+    "source": "http://markmail.org/message/u7ygpolgnjcnea2t",
+    "type": "C",
+    "text": "Yeah, it's a hack, and it's wrong, and we should figure out how to do it right."
+  },
+  {
+    "date": "2014-01-17T16:28:49.000Z",
+    "source": "http://markmail.org/message/tlfqf2fwnayq3rn6",
+    "type": "C",
+    "text": "Yes, yes, it may \"work\", but I'm not pulling that kind of hack just before a release\n\nBut dammit, using this kind of hackery,\n\nis just not acceptable."
+  },
+  {
+    "date": "2014-01-21T09:11:14.000Z",
+    "source": "http://markmail.org/message/qp4kumio6pxploxd",
+    "type": "B",
+    "text": "The fact that it doesn't even compile makes me doubt your statement that it has been in linux-next.\n\nI fixed it up properly in the merge, but please try to figure out how the hell this passed through the cracks."
+  },
+  {
+    "date": "2014-01-21T16:50:47.000Z",
+    "source": "http://markmail.org/message/5rpvx3sf2wcvzrf4",
+    "type": "S",
+    "text": "You messed up the pull request too.. The branch name is missing from that git line, even if you did mention it a few lines earlier\n\n"
+  },
+  {
+    "date": "2014-01-21T17:46:44.000Z",
+    "source": "http://markmail.org/message/i32holblxwzsml7q",
+    "type": "B",
+    "text": "Adding Andrea to the Cc, because he's the author of that horridness. Putting Steven's test-case here as an attachement for Andrea, maybe that makes him go \"Ahh, yes, silly case\". Also added Kirill, because he was involved the last _PAGE_NUMA debacle."
+  },
+  {
+    "date": "2014-01-22T09:23:43.000Z",
+    "source": "http://markmail.org/message/f4xaietzxxp4sziz",
+    "type": "C",
+    "text": "It's misleading crap. Really. Just do a quick grep for that bit, and you see just *how* confused people are about it:\n\nthink about it. Just *THINK* about how broken that code is. The whole thing is a disaster. _PAGE_NUMA must die. It's shit."
+  },
+  {
+    "date": "2014-01-26T13:27:52.000Z",
+    "source": "http://markmail.org/message/uk2l2qvdklmg57ok",
+    "type": "C",
+    "text": "This was obviously brought on by my frustration with the currently nasty do_notify_resume() always returning to iret for the task_work case, and PeterZ's patch that fixed that, but made the asm mess even *worse*."
+  },
+  {
+    "date": "2014-01-28T08:12:21.000Z",
+    "source": "http://markmail.org/message/lsyehokft5zpedb6",
+    "type": "B",
+    "text": "But dammit, if you build with debug_info and then strip the end result, you're just insane. You made your build take ten times longer, use ten times more diskspace, and then you throw it all away. Crazy."
+  },
+  {
+    "date": "2014-01-28T11:24:52.000Z",
+    "source": "http://markmail.org/message/njkznzxzq4hstqfa",
+    "type": "P",
+    "text": "If most of the oopses you decode are on your own machine with your own kernel, you might want to try to learn to be more careful when writing code. And I'm not even kidding."
+  },
+  {
+    "date": "2014-01-28T17:44:08.000Z",
+    "source": "http://markmail.org/message/tb6h6vhyia34gc2h",
+    "type": "B",
+    "text": "Dammit, this is pure shit, and after having to deal with yet another pointless merge conflict due to stupid \"cleanups\" in Makefiles, IT DOES NOT EVEN COMPILE. And no, that's not due to a merge error of mine. It was that way in your tree. Hulk angry. Hulk smash. I fixed it up in the merge, but I shouldn't need to. This should have been caught in -next, and even if you compile for ARM as your primary target, I know *damn* well that no sane ARM developer actually compiles *on* ARM (because there are no machines where it's worth the pain), so you should make sure that the x86-64 build works too. If I can find compile errors within a couple of minutes of pulling and it's not a merge error of mine, the tree I'm pulling from is clearly crap. So I'm more than a bit grumpy. Get your act together, and don't send me any more shit. In fact, I would suggest you send nothing but obvious fixes from now on in this release. Because I won't be taking anything else."
+  },
+  {
+    "date": "2014-02-02T10:27:59.000Z",
+    "source": "http://markmail.org/message/t5yj7ynloclmysyc",
+    "type": "C",
+    "text": "I don't think that works. That completely breaks randomize_stack_top(). So I'm not going to pull the parisc tree, this needs to be resolved sanely. In fact, I think that change to fs/exec.c is just completely broken:\n\nand that \"+1\" just doesn't make sense, and fundamentally breaks STACK_RND_MASK. It also seems to be entirely pointless,\n\nSo NAK on that whole fs/exec.c change. Afaik it's just wrong, and it's stupid."
+  },
+  {
+    "date": "2014-02-04T11:18:18.000Z",
+    "source": "http://markmail.org/message/5eb6xkp3u47zmjrm",
+    "type": "C",
+    "text": "Oh, please, that's a British-level understatement. It's like calling WWII \"a small bother\". That's too ugly to live."
+  },
+  {
+    "date": "2014-02-04T18:37:20.000Z",
+    "source": "http://markmail.org/message/txurofhjfbinempf",
+    "type": "C",
+    "text": "And that audit code really is aushit. I think I found a bug in it while just scanning it:"
+  },
+  {
+    "date": "2014-02-07T11:18:12.000Z",
+    "source": "http://markmail.org/message/g26urbel3sxbrsae",
+    "type": "U",
+    "text": "Grr. You missed the branch name. I can see from the SHA1 (and historical pull requests) that you meant the usual 'v4l_for_linus' branch, but please be more careful."
+  },
+  {
+    "date": "2014-02-08T10:45:29.000Z",
+    "source": "http://markmail.org/message/qlbh3nkuj6wcfy5q",
+    "type": "C",
+    "text": "I absolutely *detest* this patch\n\nbecause the particular use in question is pure and utter garbage\n\nAnd btw, that horrid crap called \"kmap_to_page()\" needs to die too. When is it *ever* valid to use a kmap'ed page for IO? Here's a clue: never. I notice that we have a similar abortion in \"get_kernel_page[s]()\", which probably has the same broken source. We need to get *rid* of this crap, rather than add more of it.\n\nSo who the f*ck sends static module data as IO? Just stop doing that. What's And that idiotic kmap_to_page() really needs to die too. Those *disgusting* get_kernel_page[s]() functions\n\nMel, Rik, this needs to die. I'm sorry I didn't notice how crap it was earlier.\n\nPlease let's just fix the real problem, don't add more horridness on top\n\n"
+  },
+  {
+    "date": "2014-02-09T15:56:01.000Z",
+    "source": "http://markmail.org/message/jetbeut5u63i4hf7",
+    "type": "C",
+    "text": "What BS is that? If you use an \"atomic_store_explicit()\", by definition you're either (a) f*cking insane (b) not doing sequential non-synchronizing code\n\nand a compiler that assumes that the programmer is insane may actually be correct more often than not, but it's still a shit compiler. Agreed? So I don't see how any sane person can say that speculative writes are ok. They are clearly not ok. Speculative stores are a bad idea in general. They are completely invalid for anything that says \"atomic\". This is not even worth discussing."
+  },
+  {
+    "date": "2014-02-09T16:23:51.000Z",
+    "source": "http://markmail.org/message/meuw4jl5eg3vbbtv",
+    "type": "C",
+    "text": "If you really think that, I hope to God that you have nothing to do with the C standard or any actual compiler I ever use. Because such a standard or compiler would be shit. It's sadly not too uncommon"
+  },
+  {
+    "date": "2014-02-13T15:37:30.000Z",
+    "source": "http://markmail.org/message/csyqhyykuv25rgxf",
+    "type": "C",
+    "text": "Is this whole thread still just for the crazy and pointless \"max_sane_readahead()\"? Or is there some *real* reason we should care? Because if it really is just for max_sane_readahead(), then for the love of God, let us just do this\n\nand bury this whole idiotic thread."
+  },
+  {
+    "date": "2014-02-14T10:50:01.000Z",
+    "source": "http://markmail.org/message/bdrn7aqw4anxhqly",
+    "type": "B",
+    "text": "Quite frankly, I think it's stupid, and the \"documentation\" is not a benefit, it's just wrong\n\nI don't understand why you even argue this. Seriously, Paul, you seem to *want* to think that \"broken shit\" is acceptable, and that we should then add magic markers to say \"now you need to *not* be broken shit\"\n\nSeriously, this whole discussion has been completely moronic. I don't understand why you even bring shit like this up\n\nI mean, really? Anybody who writes code like that, or any compiler where that \"control_dependency()\" marker makes any difference what-so-ever for code generation should just be retroactively aborted.\n\nSeriously. This thread has devolved into some kind of \"just what kind of idiotic compiler cesspool crap could we accept\". Get away from that f*cking mindset. We don't accept *any* crap. Why are we still discussing this idiocy? It's irrelevant.\n\n"
+  },
+  {
+    "date": "2014-02-15T10:15:34.000Z",
+    "source": "http://markmail.org/message/q3qh7x54i6fzv2ah",
+    "type": "B",
+    "text": "No, please don't use this idiotic example. It is wrong\n\nAnybody who argues anything else is wrong, or confused, or confusing."
+  },
+  {
+    "date": "2014-02-16T15:40:43.000Z",
+    "source": "http://markmail.org/message/s4u47op2ah7f7mtc",
+    "type": "P",
+    "text": "Please, Debabrata, humor me, and just try the patch. And try reading the source code. Because your statement is BS."
+  },
+  {
+    "date": "2014-02-17T13:32:21.000Z",
+    "source": "http://markmail.org/message/sh5uyajmtzm3p7as",
+    "type": "P",
+    "text": "\n\nit's a pointless and wrong example\n\nSo your argument is *shit*. Why do you continue to argue it?\n\nIt's really not that complicated\n\nReally, why is so hard to understand?"
+  },
+  {
+    "date": "2014-02-17T15:05:18.000Z",
+    "source": "http://markmail.org/message/63723dupyjgixgs6",
+    "type": "P",
+    "text": "This is why I don't like it when I see Torvald talk about \"proving\" things. It's bullshit."
+  },
+  {
+    "date": "2014-02-24T10:54:07.000Z",
+    "source": "http://markmail.org/message/md3zdmynnpuqvd3w",
+    "type": "C",
+    "text": "But your (and the current C standards) attempt to define this with some kind of syntactic dependency carrying chain will _inevitably_ get this wrong, and/or be too horribly complex to actually be useful. Seriously, don't do it.\n\nSo just give it up. It's a fundamentally broken model. It's *wrong*, but even more importantly, it's not even *useful*,\n\nI really really really think you need to do this at a higher conceptual level, get away from all these idiotic \"these operations maintain the chain\" crap. "
+  },
+  {
+    "date": "2014-02-24T14:34:34.000Z",
+    "source": "http://markmail.org/message/67i6f5byztnbdfjj",
+    "type": "B",
+    "text": "But that's *BS*. You didn't actually listen to the main issue. Paul, why do you insist on this carries-a-dependency crap? It's broken.\n\nThe \"carries a dependency\" model is broken. Get over it\n\nI gave an alternate model (the \"restrict\"), and you didn't seem to understand the really fundamental difference.\n\nSo please stop arguing against that. Whenever you argue against that simple fact, you are arguing against sane compilers\n\n"
+  },
+  {
+    "date": "2014-03-04T07:43:34.000Z",
+    "source": "http://markmail.org/message/6xcimeubggrc363d",
+    "type": "P",
+    "text": "Whee. Third time is the charm. I didn't know my email address was *that* hard to type in correctly.Usually it's the \"torvalds\" that trips people up, but you had some issues with \"foundation\", didn't you ;)"
+  },
+  {
+    "date": "2014-03-07T18:02:46.000Z",
+    "source": "http://markmail.org/message/bsmzhq7ldv7rgxe6",
+    "type": "B",
+    "text": "Oww, oww, oww. DAMMIT.\n\nSo I'm pissed off. This patch was clearly never tested anywhere. Why was it sent to me?\n\nGrr. Consider yourself cursed at. Saatana."
+  },
+  {
+    "date": "2014-03-12T06:41:03.000Z",
+    "source": "http://markmail.org/message/65qp77rfafxmqxrd",
+    "type": "B",
+    "text": "That's a technical issue, Stefani.\n\nAnd when Fengguang's automatic bug tester found the problem, YOU STARTED ARGUING WITH HIM.  Christ, well *excuuse* me for being fed up with this pointless discussion."
+  },
+  {
+    "date": "2014-03-27T10:16:15.000Z",
+    "source": "http://markmail.org/message/p2ngrbevkgkup6de",
+    "type": "B",
+    "text": "Ugh. This is way late in the release, and the patch makes me go: \"This is completely insane\", which doesn't really help\n\nThis is just pure bullshit\n\nSo the above locking change is at least terminally stupid, and at most a sign of something much much worse\n\nthere is no way in hell I will apply this obviously crap patch this late in the game. Because this patch is just inexcusable crap, and it should *not* have been sent to me in this state.\n\n"
+  },
+  {
+    "date": "2014-03-31T12:45:09.000Z",
+    "source": "http://markmail.org/message/nyz7qc2lmgz4ztsq",
+    "type": "C",
+    "text": "Ugh. I pulled it, but things like this makes me want to dig my eyes out with a spoon:\n\n"
+  },
+  {
+    "date": "2014-03-31T12:53:53.000Z",
+    "source": "http://markmail.org/message/hireftpiggdgkakl",
+    "type": "B",
+    "text": "So I think that adding \"visible\" to asmlinkage is actively wrong and misguided. And the compiler even told you so, but somebody then chose to ignore the compiler telling them that they did stupid things. Don't do crap like this."
+  },
+  {
+    "date": "2014-04-01T06:13:07.000Z",
+    "source": "http://markmail.org/message/xzlivxt33glabna3",
+    "type": "C",
+    "text": "Ugh. I absolutely detest this patch. If we're going to leave the TLB dirty, then dammit, leave it dirty. Don't play some half-way games\n\n"
+  },
+  {
+    "date": "2014-04-01T08:08:58.000Z",
+    "source": "http://markmail.org/message/zw6pyzowimwxylmb",
+    "type": "B",
+    "text": "Why? This change looks completely and utterly bogus\n\nGuys, this is crap.\n\nThat's utter bullshit, guys.\n\nExposing it at all is a disgrace. making it \"default y\" is doubly so.\n\nI'm not pulling crap like this. Get your act together. Why the heck should _I_ be the one that notices that this commit is insane and stupid? Yes, this is a pet peeve of mine.\n\nThis cavalier attitude about asking people idiotic questions MUST STOP. Seriously. This is not some \"small harmless bug\". This mindset of crazy questions is a major issue!"
+  },
+  {
+    "date": "2014-04-01T08:31:08.000Z",
+    "source": "http://markmail.org/message/47rd62pg2mj4dgzp",
+    "type": "B",
+    "text": "That's a cop-out.\n\nSee? It's stupid. It's wrong. It's *bad*."
+  },
+  {
+    "date": "2014-04-01T17:42:45.000Z",
+    "source": "http://markmail.org/message/ywyyge6s43xawbn4",
+    "type": "C",
+    "text": "So I absolutely *hate* how this was done\n\nI'm pulling it this time, but quite frankly, next time I see this kind of ugly AND TOTALLY POINTLESS layering violation, I will just drop the stupid pull request.\n\nIn other words, this was NOT OK. This was stupid and wrong, and violated all sanity.\n\nWhat the hell was going on here?"
+  },
+  {
+    "date": "2014-04-02T09:57:06.000Z",
+    "source": "http://markmail.org/message/qmqu3z753juxxhyl",
+    "type": "B",
+    "text": "And by \"their\" you mean Kay Sievers. Key, I'm f*cking tired of the fact that you don't fix problems in the code *you* write, so that the kernel then has to work around the problems you cause. Kay - one more time: you caused the problem, you need to fix it. None of this \"I can do whatever I want, others have to clean up after me\" crap."
+  },
+  {
+    "date": "2014-04-02T14:13:00.000Z",
+    "source": "http://markmail.org/message/hbk3vkrbahxj4wc7",
+    "type": "B",
+    "text": "It does become a problem when you have a system service developer who thinks the universe revolves around him, and nobody else matters, and people sending him bug-reports are annoyances that should be ignored rather than acknowledged and fixed. At that point, it's a problem. It looks like Greg has stepped in as a baby-sitter for Kay, and things are going to be fixed. And I'd really like to avoid adding hacky code to the kernel because of Kay's continued bad behavior, so I hope this works. But it's really sad that things like this get elevated to this kind of situation, and I personally find it annoying that it's always the same f*cking primadonna involved."
+  },
+  {
+    "date": "2014-04-04T07:09:09.000Z",
+    "source": "http://markmail.org/message/b3l4m5jhqykhtulg",
+    "type": "P",
+    "text": "Why are you making up these completely invalid arguments? Because you are making them up\n\nAnd given this *fact*, your denial that \"PCI reboot should never be used\" is counterfactual. It may be true in some theoretical \"this is how the world should work\" universe, but in the real world it is just BS. Why are you so deep in denial about this?"
+  },
+  {
+    "date": "2014-04-08T08:01:16.000Z",
+    "source": "http://markmail.org/message/o5z7xz3q23u2da6n",
+    "type": "C",
+    "text": "NO I AM NOT! Dammit, this feature is f*cking brain-damaged.\n\nBut even apart from the Xen case, it was just a confusing hell. Like Yoda said: \"Either they are the same or they are not. There is no 'try'\". So pick one solution. Don't try to pick the mixed-up half-way case that is a disaster and makes no sense."
+  },
+  {
+    "date": "2014-05-01T10:22:46.000Z",
+    "source": "http://markmail.org/message/xzj3luansvzver5m",
+    "type": "C",
+    "text": "Ugh, so I pulled this, but I'm going to unpull it, because I dislike your new \"i_mmap_lastmap\" field\n\nmakes me just gouge my eyes out. It's not only uglifying generic code, it's _stupid_ even when it's used\n\nBut the fact that it adds code to the generic file just adds insult to injury and makes me go \"no, I don't want to pull this\"."
+  },
+  {
+    "date": "2014-05-03T14:56:58.000Z",
+    "source": "http://markmail.org/message/zw27s5rfoxregfu7",
+    "type": "B",
+    "text": "No it didn't. There was nothing accidental about it, and it doesn't even change it the way you claim\n\nYour explanation makes no sense for _another_ reason\n\n\n\nSo tell us more about those actual problems, because your patch and explanation is clearly wrong.\n\nSo this whole thing makes no sense what-so-ever."
+  },
+  {
+    "date": "2014-05-21T14:30:08.000Z",
+    "source": "http://markmail.org/message/4nhnvp7ya5es2cib",
+    "type": "B",
+    "text": "and this, btw, is just another example of why MCE hardware designers are f*cking morons that should be given extensive education about birth control and how not to procreate."
+  },
+  {
+    "date": "2014-05-21T14:34:25.000Z",
+    "source": "http://markmail.org/message/xrsb4efvmzixi6ab",
+    "type": "B",
+    "text": "BS.\n\nAnd you ignored the real issue: special-casing idle is *stupid*. It's more complicated, and gives fewer cases where it helps. It's simply fundamentally stupid and wrong."
+  },
+  {
+    "date": "2014-05-21T15:03:09.000Z",
+    "source": "http://markmail.org/message/klec5zn6viixojai",
+    "type": "C",
+    "text": "It appears Intel is fixing their braindamage"
+  },
+  {
+    "date": "2014-05-28T13:40:47.000Z",
+    "source": "http://markmail.org/message/7bca7xasxmpqxagw",
+    "type": "B",
+    "text": "Well, that's one way of reading that callchain. I think it's the *wrong* way of reading it, though. Almost dishonestly so."
+  },
+  {
+    "date": "2014-05-28T19:20:35.000Z",
+    "source": "http://markmail.org/message/xkuhl256e3uytxzj",
+    "type": "C",
+    "text": "Hmm. Less vomit-inducing, except for this part:\n\nUgh, that just *screams* for a helper function."
+  },
+  {
+    "date": "2014-05-30T16:45:03.000Z",
+    "source": "http://markmail.org/message/rod62fgtn6l2xiyu",
+    "type": "C",
+    "text": "I did look at it, but the thing is horrible. I started on this something like ten times, and always ended up running away screaming."
+  },
+  {
+    "date": "2014-06-02T11:53:24.000Z",
+    "source": "http://markmail.org/message/effszxesk5qqfxd7",
+    "type": "B",
+    "text": ".. so your whole argument is bogus, because it doesn't actually fix anything else\n\nYou're not fixing the problem, you're fixing one unimportant detail that isn't worth fixing that way."
+  },
+  {
+    "date": "2014-06-03T06:32:27.000Z",
+    "source": "http://markmail.org/message/f7s6iyrumarujhci",
+    "type": "C",
+    "text": "Greg, this is BS.\n\nso now you've re-introduced part of the problem, and marked it for stable too. The commit log shows nothing useful.\n\nAnd it really _isn't_ a good idea.\n\nDon't do this shit."
+  },
+  {
+    "date": "2014-06-08T08:44:50.000Z",
+    "source": "http://markmail.org/message/fjue5oda5l62ibi6",
+    "type": "C",
+    "text": "I'm ok with coding, I find your particular patch horrible. You add a dynamic allocator that will work *horribly* badly if people actually start using it for more complex cases, and then you use that for just about the least interesting case. And the way you do the dynamic allocator, nobody can ever allocate one of the wait-queue entries *efficiently* by just knowing that they are a leaf and there is never any recursive allocation\n\n"
+  },
+  {
+    "date": "2014-06-30T16:56:58.000Z",
+    "source": "http://markmail.org/message/mwcxdtsoit6nbizu",
+    "type": "B",
+    "text": "Why the heck are you making up ew and stupid event types? Now you make the generic VM code do stupid things like this:\n\nwhich makes no sense at all. The names are some horrible abortion too (\"RANDW\"? That sounds like \"random write\" to me, not \"read-and-write\", which is commonly shortened RW or perhaps RDWR. Same foes for RONLY/WONLY - what kind of crazy names are those? But more importantly, afaik none of that is needed. Instead, tell us why you need particular flags, and don't make up crazy names like this.\n\n, so all those badly named states you've made up seem to be totally pointless. They add no actual information, but they *do* add crazy code like the above to generic code that doesn't even WANT any of this crap.\n\nSo things like this need to be tightened up and made sane before any chance of merging it."
+  },
+  {
+    "date": "2014-06-30T17:03:44.000Z",
+    "source": "http://markmail.org/message/nzbxtpx73356mvs5",
+    "type": "C",
+    "text": "I really get the feeling that somebody needs to go over this patch-series with a fine comb to fix these kinds of ugly things"
+  },
+  {
+    "date": "2014-07-01T13:41:13.000Z",
+    "source": "http://markmail.org/message/bnikwotx5a37bj5d",
+    "type": "C",
+    "text": "I've pulled this, but I was pretty close to saying \"screw this shit\". Look at commit 9a630d15f16d, and pray tell me why those kinds of commit logs are excusable? That commit message is totally worthless noise.\n\nSeriously.\n\nThat commit 9a630d15f16d is pure garbage. It's not the only crappy one, but it really does stand out.\n\nI'd really prefer it to talk about what it merges and why, but it's still *much* better than your completely information-free merge message."
+  },
+  {
+    "date": "2014-07-03T06:41:33.000Z",
+    "source": "http://markmail.org/message/2pm5rp5i6psswlcp",
+    "type": "C",
+    "text": "If this comes from some man-page, then the man-page is just full of sh*t, and is being crazy.\n\nSo NAK NAK NAK. This is insane and completely wrong. And the bugzilla is crazy too. Why would anybody think that readahead() is the same as read()?"
+  },
+  {
+    "date": "2014-07-06T10:24:19.000Z",
+    "source": "http://markmail.org/message/3vt2j3z7xavnfauk",
+    "type": "C",
+    "text": "I took it, but I think both your explanation and the patch itself is actually crap. It may fix the issue, but it's seriously confused.\n\nAnd the code is crap, because it uses ULONG_MAX etc in ways that simply make no f*cking sense. And why does it care about sizeof?\n\nSo I think this fixes a problem, but it's all ugly as hell.\n\nIt's not just that the code is unnecessarily complex, it's WRONG.\n\nIt's just stupid and misleading, and it just so happens to work by random luck\n\n"
+  },
+  {
+    "date": "2014-07-14T07:23:53.000Z",
+    "source": "http://markmail.org/message/iega33rufreijaqf",
+    "type": "B",
+    "text": ".. and apparently this whole paragraph is completely bogus. It *does* break things, and for normal people. That's what the bug report is all about. So don't waffle about it\n\nWrong. We don't break existing setups, and your attitude needs fixing.\n\nThe problem needs to be solved some other way, and developers need to f*cking stop with the \"we can break peoples setups\" mentality./ Hans, seriously. You have the wrong mental model. Fix it."
+  },
+  {
+    "date": "2014-07-15T06:41:14.000Z",
+    "source": "http://markmail.org/message/fzsyv2ciryr5cp44",
+    "type": "P",
+    "text": "Christoph, stop arguing. Trust me, Paul knows memory ordering. You clearly do *not*."
+  },
+  {
+    "date": "2014-07-24T09:46:52.000Z",
+    "source": "http://markmail.org/message/z32zxqgilnvbemgk",
+    "type": "C",
+    "text": "Ok, so I'm looking at the code generation and your compiler is pure and utter *shit*.\n\nLookie here, your compiler does some absolutely insane things with the spilling, including spilling a *constant*. For chrissake, that compiler shouldn't have been allowed to graduate from kindergarten. We're talking \"sloth that was dropped on the head as a baby\" level retardation levels here:\n\nBecause it damn well is some seriously crazy shit. However, that constant spilling part just counts as \"too stupid to live\".\n\n\n\nThis is your compiler creating completely broken code. "
+  },
+  {
+    "date": "2014-08-24T11:05:16.000Z",
+    "source": "http://markmail.org/message/dnru3mlv2dlv2ub3",
+    "type": "C",
+    "text": "I really dislike this one\n\nThe other patches look sane, this one I really don't like. You may have good reasons for it, but it's disgusting."
+  },
+  {
+    "date": "2014-09-07T18:16:44.000Z",
+    "source": "http://markmail.org/message/udtdgjmmkmiifj3s",
+    "type": "B",
+    "text": "Tejun, absolutely nothing \"justifies\" things if they break.\n\nAnd if nothing breaks, you don't need the excuses. In other words, I'll happily pull this, but your excuses for it are wrong-headed. There is no \"crazyness justifies this\". That's crap.\n\nNone of this \"the interface is crazy, so we can change it\".  Because that is pure and utter BS. Whether the interface is crazy or not is *entirely* irrelevant to whether it can be changed or not. The only thing that matters is whether people actually _trigger_ the issue you have in reality, not whether the issue is crazy."
+  },
+  {
+    "date": "2014-09-24T10:20:12.000Z",
+    "source": "http://markmail.org/message/vixwv5cq4hz4qkdc",
+    "type": "C",
+    "text": "Please don't. That thing is too ugly to exist. It also looks completely and utterly buggy. There's no way I'm taking it. If switch-names is suddenly conditional, what the f*ck happens to the name hash which is unconditionally done with a swap() right afterwards. There's no way that patch is correct"
+  },
+  {
+    "date": "2014-09-26T14:31:55.000Z",
+    "source": "http://markmail.org/message/z6pfbvh7gipggqiz",
+    "type": "P",
+    "text": "Why do you think it's not acceptable? Why do you raise a stink *one* day after the patch - that seems to not be very important - is sent out?\n\nI don't think the patch is necessarily wrong, but I don't see why it would be critical, and I *definitely* don't see why the f*ck you are making a big deal of it. Go away, stop bothering people."
+  },
+  {
+    "date": "2014-09-27T08:56:34.000Z",
+    "source": "http://markmail.org/message/nrotmwwl5jfdelwr",
+    "type": "C",
+    "text": "See what my complaint is? Not this half-assery that used to be a small random detail, and that the patch makes into an institutionalized and explicit half-assery. (And Mikhail - I'm not ragging on you, even if I'm ragging on the patch. I understand why you did it the way you did, and it makes sense exactly in the \"let's reinstate old hackery\" model. I just think we can and should do better than that, now that the \"exchange\" vs \"move over\" semantics are so explicit)"
+  },
+  {
+    "date": "2014-09-29T18:54:44.000Z",
+    "source": "http://markmail.org/message/pbkr65jmmbzbhm5c",
+    "type": "C",
+    "text": "That's just complete bullshit. The fact is, release() is not synchronous. End of story.\n\nAnybody who confuses the two is *wrong*.\n\nSo please kill this \"FOPEN_SYNC_RELEASE\" thing with fire. It's crazy, it's wrong, it's stupid. It must die."
+  },
+  {
+    "date": "2014-10-03T09:23:30.000Z",
+    "source": "http://markmail.org/message/aer4l3fouh4wnbak",
+    "type": "C",
+    "text": "This is disgusting. Many (most?) __gup_fast() users just want a single page, and the stupid overhead of the multi-page version is already unnecessary. This just makes things much worse."
+  },
+  {
+    "date": "2014-10-03T11:04:10.000Z",
+    "source": "http://markmail.org/message/p3wgzdz5532wkpwk",
+    "type": "B",
+    "text": "Yeah, this is pure crap. It doesn't even compile.\n\nWhy the f*ck do you send me totally untested crap?"
+  },
+  {
+    "date": "2014-10-03T15:01:22.000Z",
+    "source": "http://markmail.org/message/wd2lgohvpc2wu6ht",
+    "type": "C",
+    "text": "So adding the loop looks like just voodoo programming, not actually fixing anything."
+  },
+  {
+    "date": "2014-10-03T15:11:00.000Z",
+    "source": "http://markmail.org/message/dskkjf5jifm4e374",
+    "type": "C",
+    "text": "Actually, the real fix would be to not be stupid, and just make the code do something like\n\n"
+  },
+  {
+    "date": "2014-10-07T07:55:55.000Z",
+    "source": "http://markmail.org/message/vnz7zwwzidpgwxra",
+    "type": "B",
+    "text": "You're doing completelt faulty math, and you haven't thought it through.\n\nThat's *insane*. It's crap. All just to try to avoid one page copy. Don't do it.\n\nReally, you need to rethink your whole \"zerocopy\" model. It's broken. Nobody sane cares. You've bought into a model that Sun already showed doesn't work.\n\n"
+  },
+  {
+    "date": "2014-10-18T06:35:18.000Z",
+    "source": "http://markmail.org/message/seoesvnzd7fa2l6c",
+    "type": "C",
+    "text": "No they aren't. You think they are, and then you find one case, and ignore all the others.\n\nSo no, your patch doesn't change the fundamental issue in any way, shape, or form. I asked you to stop emailing me with these broken \"let's fix one special case, because I can't be bothered to understand the big picture\" patches. This was another one of those hacky sh*t patches that doesn't actually change the deeper issue. Stop it. Seriously. This idiotic thread has been going on for too long."
+  },
+  {
+    "date": "2014-10-18T09:38:05.000Z",
+    "source": "http://markmail.org/message/7vtzcc2akcghwfzh",
+    "type": "B",
+    "text": "No there isn't. Your \"action by the holder\" argument is pure and utter garbage, for a very simple and core reason: the *filesystem* doesn't know or care.\n\n\n\nFace it, your patch is broken. And it's *fundamentally* broken, which is why I'm so tired of your stupid ad-hoc hacks that cannot possibly work."
+  },
+  {
+    "date": "2014-10-30T16:58:57.000Z",
+    "source": "http://markmail.org/message/v5hd5syd3ckqhh7t",
+    "type": "C",
+    "text": "Yeah. Bloated, over-engineered, and stupid.\n\nDespite making the code slower, bigger, and buggier. I guess I'll fetch the git tree and see if they document this braindamage..\n\nOh well. What a cock-up. The code is insane in other ways too.\n\nI can't take it any more. That code is crazy."
+  },
+  {
+    "date": "2014-11-06T08:53:18.000Z",
+    "source": "http://markmail.org/message/di6bkfqzpvk6t5mb",
+    "type": "C",
+    "text": "And no, we should *not* play games with \"tlb->local.next\". That just sounds completely and utterly insane. That's a hack, it's unclear, it's stupid, and it's connected to a totally irrelevant implementation detail, namely that random RCU freeing. Set a flag, for chrissake."
+  },
+  {
+    "date": "2014-11-10T09:09:36.000Z",
+    "source": "http://markmail.org/message/ftuigcjfihdtvaob",
+    "type": "C",
+    "text": "Improve the debugger, don't make kernel code worse because your out-of-tree debugging infrastructure is too broken to live."
+  },
+  {
+    "date": "2014-11-10T11:21:39.000Z",
+    "source": "http://markmail.org/message/mo6ksjo27cjmz3la",
+    "type": "B",
+    "text": "Ok, so things are somewhat calm, and I'm trying to take time off to see what's going on. And I'm not happy.\n\nPlease don't call this thing a \"generic page table\".\n\nIn other words, looking at this, I just go \"this is re-implementing existing models, and uses naming that is actively misleading\". I think it's actively horrible, in other words.\n\nI also find it absolutely disgusting how you use USE_SPLIT_PTE_PTLOCKS for this, which seems to make absolutely zero sense.\n\nI'm also looking at the \"locking\". It's insane. It's wrong, and doesn't have any serialization.\n\nRik, the fact that you acked this just makes all your other ack's be suspect. Did you do it just because it was from Red Hat, or do you do it because you like seeing Acked-by's with your name?\n\n"
+  },
+  {
+    "date": "2014-11-10T18:15:40.000Z",
+    "source": "http://markmail.org/message/c3zhc7ljokzeh4xh",
+    "type": "P",
+    "text": "WHAT? NONE OF WHAT YOU SAY MAKES ANY SENSE."
+  },
+  {
+    "date": "2014-11-12T11:35:52.000Z",
+    "source": "http://markmail.org/message/w6unjtiro4puk6ci",
+    "type": "B",
+    "text": "Umm. We had oopses showing it. Several times.\n\n.. and you and Andi repeatedly refused to make the code more robust when I asked. Which is why I don't work with Andi or you directly any more,\n\nEvery time there were just excuses. Like now.\n\nI'm done with your crazy unwinder games.\n\nBut this patch I NAK'ed because the code is not readable, and the infrastructure is not bearable. Live with it."
+  },
+  {
+    "date": "2014-11-19T14:58:49.000Z",
+    "source": "http://markmail.org/message/nqe2ghz6pltei4i3",
+    "type": "U",
+    "text": "Andy, you need to lay off the drugs."
+  },
+  {
+    "date": "2014-11-25T16:47:43.000Z",
+    "source": "http://markmail.org/message/z7yidblfn5owu2wn",
+    "type": "P",
+    "text": "You have also marked 3.18-rc1 bad *twice*, along with the network merge, and the tty merge. That's just odd. But it doesn't make the bisect wrong, it just means that you fat-fingered thing and marked the same thing bad a couple of times. Nothing to worry about, unless it's a sign of early Parkinsons\n\n"
+  },
+  {
+    "date": "2014-12-08T09:13:50.000Z",
+    "source": "http://markmail.org/message/s7odimvx3jqkxxyq",
+    "type": "C",
+    "text": "For a vmalloc() address, you'd have to actually walk the page tables. Which is a f*cking horrible idea. Don't do it.\n\nWhere the hell does this crop up, and who does this insane thing anyway? It's wrong. "
+  },
+  {
+    "date": "2014-12-08T09:23:00.000Z",
+    "source": "http://markmail.org/message/mtrpl4wpcq7rhvhi",
+    "type": "C",
+    "text": "Ugh. That's horrid. Do we need to even support O_DIRECT in that case?\n\nIn general, it's really a horrible thing to use, and tends to be a big red sign that \"somebody misdesigned this badly\""
+  },
+  {
+    "date": "2014-12-13T12:32:12.000Z",
+    "source": "http://markmail.org/message/sqcaeqoeuqv3sbyr",
+    "type": "C",
+    "text": "Gaah. Why do you do this to me?\n\nThat's the wrong format, but it's also the wrong branch name.\n\nEXCEPT THAT'S WRONG TOO!\n\nPlease fix your script/workflow. I'm not pulling this mess."
+  },
+  {
+    "date": "2014-12-15T16:03:23.000Z",
+    "source": "http://markmail.org/message/b73s2vropwkq7slv",
+    "type": "C",
+    "text": ".. why did that commit ever even get far enough to get to me?\n\nEither way, it shows a rather distinct lack of actual testing, wouldn't you say? I really see no excuse for crap like this.\n\nLinus \"not happy\" Torvalds"
+  },
+  {
+    "date": "2014-12-15T17:15:20.000Z",
+    "source": "http://markmail.org/message/np2j4f62v6wgrqil",
+    "type": "C",
+    "text": "I don't mind it if it's *one* line, and if people realize that the commentary in the commit in question was pure and utter shit.\n\nSo really, I don't see the point of even a oneliner message. You guys know who the user is. There's no value in the message. Either you fix the user or you don't."
+  },
+  {
+    "date": "2014-12-19T16:56:41.000Z",
+    "source": "http://markmail.org/message/36knb5ckdqi6fyhd",
+    "type": "C",
+    "text": "No. Really. No.\n\nThomas, you're in denial.\n\nYour argument \"it has a question mark in front of it\" objection is bogus.\n\nI'm just saying that your arguments to ignore CPU0 are pretty damn weak."
+  },
+  {
+    "date": "2015-01-01T14:14:21.000Z",
+    "source": "http://lkml.iu.edu/hypermail/linux/kernel/1501.0/00127.html",
+    "type": "B",
+    "text": "So I'm not saying \"ifconfig is wonderful\". It's not. But I *am* saying that \"changing user interfaces and then expecting people to change is f*cking stupid\"\n\nBecause people who think that \"we'll just redesign everything\" are actually f*cking morons. Really. There's a real reason the kernel has the \"no regression\" policy. And that reason is that I'm not a moron."
+  },
+  {
+    "date": "2015-01-04T14:22:52.000Z",
+    "source": "http://lkml.iu.edu/hypermail/linux/kernel/1501.0/00786.html",
+    "type": "B",
+    "text": "To quote the standard response for people who ignore regressions: \"SHUT THE FUCK UP\"\n\nI don't understand how people can't get this simple thing. You have two choices: - acknowledge and fix regressions - get the hell out of kernel development\n\nChrist people. Why does this even have to be discussed any more?\n\nBut you guys need to shape up. We don't break things\n\n"
+  },
+  {
+    "date": "2015-01-04T14:58:52.000Z",
+    "source": "http://lkml.iu.edu/hypermail/linux/kernel/1501.0/00799.html",
+    "type": "P",
+    "text": "\n\nEnd of discussion. Seriously. Your whinging about \"support costs\" is just crying over the fact that you have users. Deal with it.\n\nAnd dammit, I really never *ever* want to hear arguments against fixing regressions ever again. It really is the #1 rule for the kernel. There is *no* excuse for that NAK. There is only \"sorry\"."
+  },
+  {
+    "date": "2015-01-04T15:02:22.000Z",
+    "source": "http://lkml.iu.edu/hypermail/linux/kernel/1501.0/00803.html",
+    "type": "B",
+    "text": "Really. Shut up\n\nAnd if you aren't ok with \"wasting time\" on trying to give that kind of reassurances to users, then you shouldn't be working on the kernel. I'm serious about this. You really *need* to understand that. Your job as a kernel developer is very much to support the users. Not try to make it easy for *you* at the cost of being nasty for *them*."
+  },
+  {
+    "date": "2015-01-07T18:57:38.000Z",
+    "source": "http://lkml.iu.edu/hypermail/linux/kernel/1501.0/03751.html",
+    "type": "P",
+    "text": "Yes, I actually would mind, unless you have a damn good reason for it\n\nI really don't see why you should lie in your /proc/cpuinfo.\n\nJust give the real information. Don't lie. Quite frankly, the *only* actual real reason I've heard from you for not having the real bogomips there is \"waste of time\". And this whole thread has been *nothing* but waste of time. But it has been *you* wasting time, and that original commit.\n\nSo quite frankly, my patience for you arguing \"wasting time\" is pretty damn low. I think your arguments are crap, I still think your NAK was *way* out of line, and I think it's completely *insane* to lie about bogomips. It's disasteful, it's dishonest, and there's no reason for it.\n\nSeriously, what kind of *insane* argument can you really marshal for lying to users?\n\nChrist, this whole thing is annoying. I really find it *offensive* how you want to basically lie to users. Stop this idiocy. Really. There is no excuse."
+  },
+  {
+    "date": "2015-01-07T23:04:40.000Z",
+    "source": "http://lkml.iu.edu/hypermail/linux/kernel/1501.1/00000.html",
+    "type": "P",
+    "text": "Fuck no.\n\nYou are just making shit up. Bad shit. Get off the drugs, because it's not the good kind\n\nCry me a river.\n\nBullshit.  This whole thread is now marked as \"muted\" for me, because I can't take the BS any more. You make no sense.\n\nYou're crazy. Go away. Or don't. I won't be seeing your emails anyway, so why would I care?"
+  },
+  {
+    "date": "2015-01-10T16:07:29.000Z",
+    "source": "http://lkml.iu.edu/hypermail/linux/kernel/1501.1/01747.html",
+    "type": "C",
+    "text": "Ugh.  This is too ugly, it needs to die.\n\nBecause this is unreadable."
+  },
+  {
+    "date": "2015-01-29T19:25:15.000Z",
+    "source": "http://lkml.iu.edu/hypermail/linux/kernel/1501.3/05334.html",
+    "type": "C",
+    "text": "Why do I say \"total crap\"?\n\nit's really wrong.\n\nThe comment is also crap.\n\nSo doing this in \"__may_sleep()\" is just bogus and horrible horrible crap. It turns the \"harmless ugliness\" into a real *harmful* bug.\n\nPeterZ, please don't make \"debugging\" patches like this. Ever again. Because this was just stupid, and it took me too long to realize that despite the warning being shut up, the debug patch was still actively doing bad bad things."
+  },
+  {
+    "date": "2015-02-01T15:01:12.000Z",
+    "source": "http://lkml.iu.edu/hypermail/linux/kernel/1502.0/00120.html",
+    "type": "C",
+    "text": "Ugh.  This patch is too ugly to live.\n\nI really detest debug code (or compiler warnings) that encourage people to write code that is *worse* than the code that causes the debug code or warning to trigger. It's fundamentally wrong when those \"fixes\" actually make the code less readable and maintainable in the long run."
+  },
+  {
+    "date": "2015-02-01T17:09:44.000Z",
+    "source": "http://lkml.iu.edu/hypermail/linux/kernel/1502.0/00135.html",
+    "type": "C",
+    "text": "Because code like this is just crap:\n\nreally. It's just crazy.  It makes no sense. It's all just avoiding the warning, it's not making the code any better."
+  },
+  {
+    "date": "2015-02-06T16:11:07.000Z",
+    "source": "http://lkml.iu.edu/hypermail/linux/kernel/1502.0/04512.html",
+    "type": "C",
+    "text": "This makes no sense.  You're trying to fix what you perceive as a problem in the page fault handling in some totally different place.\n\nDon't try to make horrible code in insane places that have nothing to do with the fundamental problem. Why did you pick this particular get/put user anyway? There are tons others that we don't test, why did you happen pick these and then make it have that horrible and senseless error handling?  Because at *NO* point was it obvious that that patch had anything at all to do with \"out of memory\". Not in the code, not in your commit messages, *nowhere*.\n\n"
+  },
+  {
+    "date": "2015-02-16T18:07:31.000Z",
+    "source": "http://lkml.iu.edu/hypermail/linux/kernel/1502.2/00574.html",
+    "type": "C",
+    "text": "Ugh. Your diffstat is crap, because you don't show the inexact renames that are very abundant in the nouveau driver."
+  },
+  {
+    "date": "2015-02-17T13:41:45.000Z",
+    "source": "http://lkml.iu.edu/hypermail/linux/kernel/1502.2/01301.html",
+    "type": "B",
+    "text": "No. Really.\n\nNo. The whole concept of \"drop the lock in the middle\" is *BROKEN*. It's seriously crap. It's not just a bug, it's a really fundamentally wrong thing to do.\n\nNo. That's still wrong. You can have two people holding a write-lock. Seriously. That's *shit*"
+  },
+  {
+    "date": "2015-02-21T14:12:47.000Z",
+    "source": "http://lkml.iu.edu/hypermail/linux/kernel/1502.2/03755.html",
+    "type": "C",
+    "text": "No.  I pulled, and immediately unpulled again.  This is complete shit, and the compiler even tells you so:\n\nI'm not taking \"cleanups\" like this. And I certainly don't appreciate being sent completely bogus shit pull requests at the end of the merge cycle."
+  },
+  {
+    "date": "2015-02-21T16:45:50.000Z",
+    "source": "http://lkml.iu.edu/hypermail/linux/kernel/1502.2/03774.html",
+    "type": "C",
+    "text": "\n\nThere is absolutely no sane reason to use this crap, as far as I can tell. The new \"fs_inode_once()\" thing is just stupid.\n\nDammit, if we add wrapper and \"helper\" functions, they should *help*, not confuse. This thing is just badly named, and there is no actual real explanation for why it exists in the first place, nor for when to use one or the other. There is just an endless series of patches with pointless churn\n\nExplain it, or that crap gets undone.  I'm annoyed, because shit like this that comes in at the end of the merge window when everybody and their dog sends me random crap on the Friday afternoon before the merge window closes is just annoying as hell.\n\nToday has been a huge waste of time for me, and reading through this was just the last drop."
+  },
+  {
+    "date": "2015-02-21T19:34:32.000Z",
+    "source": "http://lkml.iu.edu/hypermail/linux/kernel/1502.2/03800.html",
+    "type": "B",
+    "text": "And what *possible* situation could make that \"_once()\" version ever be valid? None. It's bogus. It's crap. It's insane. There is no way that it is *ever* a valid question to even ask."
+  },
+  {
+    "date": "2015-03-07T12:42:35.000Z",
+    "source": "http://lkml.iu.edu/hypermail/linux/kernel/1503.0/06080.html",
+    "type": "B (self)",
+    "text": "So my patch was obviously wrong, and I should feel bad for suggesting it. I'm a moron, and my expectations that \"pte_modify()\" would just take the accessed bit from the vm_page_prot field was stupid and wrong."
+  },
+  {
+    "date": "2015-03-09T20:14:34.000Z",
+    "source": "http://lkml.iu.edu/hypermail/linux/kernel/1503.1/01347.html",
+    "type": "P",
+    "text": "You make no sense. The commits you list were all on top of plain 4.0-rc2."
+  },
+  {
+    "date": "2015-03-26T11:15:27.000Z",
+    "source": "http://lkml.iu.edu/hypermail/linux/kernel/1503.3/02670.html",
+    "type": "C",
+    "text": "NOOO!\n\nGet rid of the f*cking size checks etc on READ_ONCE() and friends.\n\nHell f*cking no. The \"something like so\" is huge and utter crap, because the barrier is on the wrong side."
+  },
+  {
+    "date": "2015-04-01T12:15:25.000Z",
+    "source": "http://lkml.iu.edu/hypermail/linux/kernel/1504.0/00504.html",
+    "type": "C",
+    "text": "Completely immaterial.  Seriously.\n\nAnswer: you don't.\n\nIt's wrong. It's fundamentally invalid crap.\n\nNO WAY IN HELL do we add generic support for doing shit. Really. If p9 does crazy crap, that is not an excuse to extend the crazy crap to more code."
+  },
+  {
+    "date": "2015-04-14T18:25:22.000Z",
+    "source": "http://lkml.iu.edu/hypermail/linux/kernel/1504.1/04846.html",
+    "type": "C",
+    "text": "Side note, you'll obviously also need to fix the actual bogus 'gp_init_delay' use in kernel/rcu/tree.c.  That code is horrible."
+  },
+  {
+    "date": "2015-04-17T14:18:28.000Z",
+    "source": "http://lkml.iu.edu/hypermail/linux/kernel/1504.2/01393.html",
+    "type": "C",
+    "text": "Why not just revert that commit. It looks like garbage.\n\nThe reason I think it's garbage is\n\ncode like the above is just crap to begin with.. So I don't think this code is \"fixable\". It really smells like a fundamental mistake to begin with. Just revert it, chalk it up as \"ok, that was a stupid idea\", and move on\n\n"
+  },
+  {
+    "date": "2015-04-28T12:38:42.000Z",
+    "source": "http://lkml.iu.edu/hypermail/linux/kernel/1504.3/02818.html",
+    "type": "B",
+    "text": "Basically, I absolutely hate the notion of us doing something unsynchronized, when I can see us undoing a mmap that another thread is doing. It's wrong.  You also didn't react to all the *other* things that were wrong in that patch-set. The games you play with !fatal_signal_pending() etc are just crazy.  End result: I absolutely detest the whole thing. I told you what I consider an acceptable solution instead, that is much simpler and doesn't have any of the problems of your patchset."
+  },
+  {
+    "date": "2015-05-22T15:34:42.000Z",
+    "source": "http://lkml.iu.edu/hypermail/linux/kernel/1505.2/06069.html",
+    "type": "P",
+    "text": "Ok, I'm used to fixing up your whitespace and lack of capitalization, but you're getting so incoherent that I can no longer even parse it well enough to fix it up.  English *is* your first language, right? "
+  },
+  {
+    "date": "2015-06-07T18:17:34.000Z",
+    "source": "http://lkml.iu.edu/hypermail/linux/kernel/1506.0/04868.html",
+    "type": "B",
+    "text": "Hell no.  Stop with the random BUG_ON() additions.\n\nDammit, there's no reason to add a BUG_ON() here in the first place, and the reason of \"but but it's an unused error return\": is f*cking retarded.  Stop this idiocy. We don't write crap code just to satisfy some random coding standard or shut up a compiler error\n\nNO NO NO.\n\nReally. I'm getting very tired indeed of people adding BUG_ON's like that. Stop it."
+  },
+  {
+    "date": "2015-06-11T14:38:00.000Z",
+    "source": "http://lkml.iu.edu/hypermail/linux/kernel/1506.1/03497.html",
+    "type": "C",
+    "text": "This is not at all equivalent, and it looks stupid."
+  },
+  {
+    "date": "2015-06-16T00:41:35.000Z",
+    "source": "http://lkml.iu.edu/hypermail/linux/kernel/1506.2/00044.html",
+    "type": "B",
+    "text": "Bullshit, Andrea.  That's *exactly* what you said in the commit message for the broken patch that I complained about.\n\nand I pointed out that your commit message was garbage, and that it's not at all as easy as you claim, and that your patch was broken, and your description was even more broken\n\nYour commit message was garbage, and actively misleading. Don't make excuses."
+  },
+  {
+    "date": "2015-06-24T06:14:46.000Z",
+    "source": "http://lkml.iu.edu/hypermail/linux/kernel/1506.3/00255.html",
+    "type": "B",
+    "text": "No. I refuse to touch this crap\n\nYou really expect me to take crap like that? Hell no.  If your stuff isn't self-sufficient, then it's not something I want to ever pull. If the top of the tree you ask me to pull doesn't work (and quite frankly, every commit leading to it) then it's bad and unusable.\n\nBut it's one thing to have an unintentional bug, and another thing to do it on _purpose_."
+  },
+  {
+    "date": "2015-06-24T06:41:02.000Z",
+    "source": "http://lkml.iu.edu/hypermail/linux/kernel/1506.3/00300.html",
+    "type": "B",
+    "text": "No, it really isn't.  You still seem to be in denial:\n\nNO YOU DID NOT! Stop claiming that.  You didn't actually test what you sent me. YOU TESTED SOMETHING ENTIRELY DIFFERENT.  Do you really not see the difference? Because that's a honking big difference.\n\n"
+  },
+  {
+    "date": "2015-07-08T09:53:51.000Z",
+    "source": "http://lkml.iu.edu/hypermail/linux/kernel/1507.1/00798.html",
+    "type": "C",
+    "text": "Ugh. I hate that. It looks bad, but it's also pointless.\n\nCompilers that warn for the good kind of safe range tests should be taken out and shot.\n\nso I just detest that buggy piece of crap for *so* many reasons.  It's also sad that a one-liner commit that claims to \"fix\" something was this broken to begin with. Grr. Honza, not good."
+  },
+  {
+    "date": "2015-08-18T17:54:41.000Z",
+    "source": "http://lkml.iu.edu/hypermail/linux/kernel/1508.2/01419.html",
+    "type": "B",
+    "text": "What the hell have you done with the commit messages?  The first line is completely corrupted for those reverts, and as a result your own shortlog looks like crap and is completely misleading.\n\npresumably due to some horribly broken automation crap of yours that adds the \"[media]\" prefix or something.  How did you not notice this when you sent the shortlog? Or even earlier? This is some serious sh*t, since it basically means that your log messages are very misleading, since the one-liner actually implies exactly the reverse of what the commit does.  I unpulled this, because I think misleading commit messages is a serious problem, and basically *half* (and patch-wise, the bulk) of the commits in this queue are completely broken."
+  },
+  {
+    "date": "2015-09-03T10:45:52.000Z",
+    "source": "http://lkml.iu.edu/hypermail/linux/kernel/1509.0/01911.html",
+    "type": "C",
+    "text": "\n\nChrist, people. Learn C, instead of just stringing random characters together until it compiles (with warnings).\n\nThere are arguments for them, but they are from weak minds.\n\nA later patch then added onto the pile of manure by adding *another* broken array argument,\n\nIt's basically just lying about what is going on, and the only thing it documents is \"I don't know how to C\".\n\nPlease people.\n\n"
+  },
+  {
+    "date": "2015-09-10T12:01:42.000Z",
+    "source": "http://lkml.iu.edu/hypermail/linux/kernel/1509.1/01958.html",
+    "type": "C",
+    "text": "No. You think *WRONG*.\n\nYOUR CODE IS WRONG, AND REALITY SHOWS THAT YOUR DEFAULT IS CRAP.  Really.\n\nBS.  The only reason for your interface was that it was simpler to use. You broke that.  And you broke that for no good reason.\n\nSo your \"default\" is not actually safe. It breaks real cases, and doesn't add any security.  It's broken."
+  },
+  {
+    "date": "2015-09-11T15:19:24.000Z",
+    "source": "http://lkml.iu.edu/hypermail/linux/kernel/1509.1/02764.html",
+    "type": "B",
+    "text": "Your arguments all are entirely irrelevant to the fundamental issue.  And then when I suggest a *sane* interface that doesn't have this problem, your arguments are crap - again.\n\nBullshit. You clearly didn't even read my proposal.\n\nAnyway, I'm not discussing this. You are clearly unwilling to just admit that your patch-series was broken,\n\nAs such, why bother arguing? "
+  },
+  {
+    "date": "2015-10-02T13:01:13.000Z",
+    "source": "http://lkml.iu.edu/hypermail/linux/kernel/1510.0/01693.html",
+    "type": "B",
+    "text": "No. Stop this theoretical idiocy.  We've tried it. I objected before people tried it, and it turns out that it was a horrible idea\n\nSo this \"people should check for allocation failures\" is bullshit. It's a computer science myth.\n\nSo no.\n\nGet over it. I refuse to go through that circus again. It's stupid. "
+  },
+  {
+    "date": "2015-10-06T02:49:26.000Z",
+    "source": "http://lkml.iu.edu/hypermail/linux/kernel/1510.0/03479.html",
+    "type": "B",
+    "text": "Really. Stop this idiocy. We have gone through this before. It's a disaster."
+  },
+  {
+    "date": "2015-10-28T04:40:26.000Z",
+    "source": "http://lkml.iu.edu/hypermail/linux/kernel/1510.3/02866.html",
+    "type": "B",
+    "text": "Christ people. This is just sh*t\n\nBut what makes me upset is that the crap is for completely bogus reasons.\n\nand anybody who thinks that the above is  (a) legible (b) efficient (even with the magical compiler support) (c) particularly safe  is just incompetent and out to lunch.  The above code is sh*t, and it generates shit code. It looks bad, and there's no reason for it\n\nReally. Give me *one* reason why it was written in that idiotic way with two different conditionals, and a shiny new nonstandard function that wants particular compiler support to generate even half-way sane code, and even then generates worse code? A shiny function that we have never ever needed anywhere else, and that is just compiler-masturbation.\n\nSo I really see no reason for this kind of complete idiotic crap.\n\nBecause I'm not pulling this kind of completely insane stuff that generates conflicts at rc7 time, and that seems to have absolutely no reason for being anm idiotic unreadable mess.\n\nAnd it's a f*cking bad excuse for that braindamage.  I'm sorry, but we don't add idiotic new interfaces like this for idiotic new code like that.\n\nIn fact, I want to make it clear to *everybody* that code like this is completely unacceptable. Anybody who thinks that code like this is \"safe\" and \"secure\" because it uses fancy overflow detection functions is so far out to lunch that it's not even funny. All this kind of crap does is to make the code a unreadable mess with code that no sane person will ever really understand what it actually does.  Get rid of it. And I don't *ever* want to see that shit again."
+  },
+  {
+    "date": "2015-11-02T12:08:30.000Z",
+    "source": "http://lkml.iu.edu/hypermail/linux/kernel/1511.0/00823.html",
+    "type": "C",
+    "text": "This code makes absolutely no sense\n\nSo the code may end up *working*, but the comments in it are misleading, insane, and nonsensical.\n\nThe comment is actively and entirely wrong.\n\nSo the code looks insane to me.\n\nSo in no case can that code make sense, as far as I can tell."
+  },
+  {
+    "date": "2015-11-02T15:16:25.000Z",
+    "source": "http://lkml.iu.edu/hypermail/linux/kernel/1511.0/00957.html",
+    "type": "B",
+    "text": "Stop this idiocy.\n\nAnd that disgusting \"overflow_usub()\" in no way makes the code more readable. EVER.  So stop just making things up\n\nIt wasn't more efficient, it wasn't more legible, and it simply had no excuse for it. Stop making excuses for shit."
+  },
+  {
+    "date": "2015-11-02T15:19:32.000Z",
+    "source": "http://lkml.iu.edu/hypermail/linux/kernel/1511.0/00959.html",
+    "type": "B",
+    "text": "Really. That's it. Claiming that that is \"complicated\" and needs a helper function is not something sane people do. A fifth-grader that isn't good at math can understand that.  In contrast, nobody sane understands \"usub_overflow(a, b, &res)\".  So really. Stop making inane arguments."
+  },
+  {
+    "date": "2015-11-02T17:22:26.000Z",
+    "source": "http://lkml.iu.edu/hypermail/linux/kernel/1511.0/01029.html",
+    "type": "B",
+    "text": "Hell no\n\nIn exactly *WHAT* crazy universe does that make sense as an argument?  It's like saying \"I put literal shit on your plate, because there are potentially nutritious sausages that look superficially a bit like the dogshit I served you\".  Seriously.\n\nIt's *exactly* the same argument as \"dog poop superficially looks like good sausages\".  Is that really your argument?  There is never an excuse for \"usub_overflow()\". It's that simple.  No amount of _other_ overflow functions make that shit palatable. "
+  },
+  {
+    "date": "2015-11-02T18:16:18.000Z",
+    "source": "http://lkml.iu.edu/hypermail/linux/kernel/1511.0/01060.html",
+    "type": "C",
+    "text": "No.  Your repository is bogus.  I don't know what the hell you have done or why you have done it, but you have actually rebased *my* 4-3-rc7 commit that updates the Makefile from rc6 to rc7\n\nand there is no way I will take things like this."
+  },
+  {
+    "date": "2015-11-03T13:40:33.000Z",
+    "source": "http://lkml.iu.edu/hypermail/linux/kernel/1511.0/01843.html",
+    "type": "B",
+    "text": "Your arguments make no sense.\n\nNO IT DOES NOT.  Christ, Paul.\n\nYou have turned it into something else in your mind. But your mind is WRONG.\n\nI really don't understand your logic.\n\nThat is NOT WHAT I WANT AT ALL."
+  },
+  {
+    "date": "2015-11-11T15:23:35.000Z",
+    "source": "http://lkml.iu.edu/hypermail/linux/kernel/1511.1/02587.html",
+    "type": "B",
+    "text": "That's insane.\n\nIt is simply not sensible to have a \"wait_for_unlock()\" that then synchronizes loads or stores that happened *before* the wait. That's some crazy voodoo programming.\n\nOr just take the damn lock, and don't play any games at all."
+  },
+  {
+    "date": "2015-12-04T16:05:58.000Z",
+    "source": "http://lkml.iu.edu/hypermail/linux/kernel/1512.0/03875.html",
+    "type": "C",
+    "text": "Are we trying to win some obfuscated C contest here?"
+  },
+  {
+    "date": "2015-12-11T14:50:41.000Z",
+    "source": "http://lkml.iu.edu/hypermail/linux/kernel/1512.1/03816.html",
+    "type": "C",
+    "text": "So this is definitely crap.  You can't return an error.\n\nSame deal. Returning an error is wrong."
+  },
+  {
+    "date": "2015-12-21T18:03:19.000Z",
+    "source": "http://lkml.iu.edu/hypermail/linux/kernel/1512.2/03700.html",
+    "type": "C",
+    "text": "Absolutely not.  I will not take this, and it's stupid in the extreme.\n\nThat's just crazy talk.\n\nSo I don't know how many ways I can say \"NO\", but I'll not take anythign like this. It's *completely* wrong."
+  }
+]

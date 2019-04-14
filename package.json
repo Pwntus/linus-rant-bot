@@ -1,0 +1,32 @@
+{
+  "name": "linus-rant-bot",
+  "version": "1.0.0",
+  "description": "Linus rant Discord bot.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node ./build/bot.js",
+    "lint": "tslint -c tslint.json 'src/**/*.ts'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "linus",
+    "rant",
+    "discord",
+    "bot"
+  ],
+  "author": "Pontus Aurdal <pontus.edvard@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "cron": "^1.7.0",
+    "discord.js": "^11.4.2",
+    "dotenv": "^7.0.0"
+  },
+  "devDependencies": {
+    "@types/cron": "^1.7.0",
+    "@types/dotenv": "^6.1.1",
+    "@types/node": "^11.13.4",
+    "tslint": "^5.15.0",
+    "typescript": "^3.4.3"
+  }
+}
